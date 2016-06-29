@@ -3,7 +3,7 @@
 
     	<div class="row">
 
-		<div class="row-md-3">
+		<div class="col-md-3">
 		Membership<br />
 		Webinar Spotlight<br />
 		Partner Depot<br />
@@ -11,12 +11,14 @@
 		State of Grantseeking<br />
 		</div>
 
-		<div class="row-md-4">
-		<img src="" />
+		<div class="col-md-4">
+		<img src="/assets/startup-photos.jpg" />
 		</div>
 
-		<div class="row-md-5">
-		Give your membership the tools to build their grants program.
+		<div class="col-md-5">
+		<div id="slideshow-header">Give your membership the tools to build their grants program.</div>
+		<div id="slideshow-text">We are dedicated to creating a civil society by assisting the nonprofit sector.</div>
+		<button tvalue="Learn More">
 		</div>
 
 	</div>
