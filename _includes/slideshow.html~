@@ -1,6 +1,25 @@
-<div class="slideshow">
+<div class="slideshow-content">
+  <div class="slideshow">
 
-blah blah
+    	<div class="row">
 
+		<div class="row-md-3">
+		Membership<br />
+		Webinar Spotlight<br />
+		Partner Depot<br />
+		GS Insights<br />
+		State of Grantseeking<br />
+		</div>
 
+		<div class="row-md-4">
+		<img src="" />
+		</div>
+
+		<div class="row-md-5">
+		Give your membership the tools to build their grants program.
+		</div>
+
+	</div>
+
+  </div>
 </div>

@@ -1,47 +1,43 @@
 <header class="site-header">
 
-  <div class="headerwrapper">
+	<div class="headerwrapper">
 
-     <div class="row">
-     <div class="col-md-4">
-    <div id="logo-div">
-      <a class="site-title" href="{{ site.baseurl }}/"><img src="/assets/GrantStation_slogan_trans.png" id="logo" /></a>
-    </div>
-    </div>
+		<div class="row">
+			<div class="col-md-4">
+				<div id="logo-div">
+				<a class="site-title" href="{{ site.baseurl }}/"><img src="/assets/GrantStation_slogan_trans.png" id="logo" /></a>
+				</div>
+			</div>
 
-    <div class="col-md-8">
+			<div class="col-md-8">
+				<div class="row">
+					<div class="col-md-8">
+						<div id="nav-div">
+							<nav class="site-nav">
+							{% for my_page in site.pages %}
+							{% if my_page.title %}
+							<a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+							{% endif %}
+							{% endfor %}
+							</nav>
+						</div>
+					</div>
 
-      <div class="row">
-        <div class="col-md-6">
-        <div id="nav-div">
+					<div class="col-md-4">
+			   		We help grantseekers connect with the right grantmakers for making your projects and programs successful.
+			  		</div>
 
-    <nav class="site-nav">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-          {% endif %}
-        {% endfor %}
-    </nav>
-    </div>
-</div>
-
-          <div class="col-md-6">
-           We help grantseekers connect with the right grantmakers for making your projects and programs successful.
-          </div>
-        </div>
-
-      </div>
+				</div>
  
-      <div class="row">
-       <div id="nav-div2">
-        JOIN     FIND GRANTMAKERS  BUILD STRATEGY    WRITE PROPOSALS    PUBLIC RESOURCES
-       </div>
-      </div>
+		      		<div class="row">
+		       			<div id="nav-div2">
+					JOIN     FIND GRANTMAKERS  BUILD STRATEGY    WRITE PROPOSALS    PUBLIC RESOURCES
+		       			</div>
+		      		</div>
 
-    </div>
+			</div>
+    		</div>
 
-</div>
-
-  </div>
+	</div>
 
 </header>
