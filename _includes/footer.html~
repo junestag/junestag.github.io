@@ -1,36 +1,40 @@
 <footer class="site-footer">
 
-  <div class="footer-wrapper">
+	<div class="footer-wrapper">
 
-<div id="footer-nav">JOIN | Find Grantmakers | Build Strategy | Write Proposals | Public Resources</div>
+		<div id="footer-nav">JOIN | Find Grantmakers | Build Strategy | Write Proposals | Public Resources</div>
 
-<div id="connectwithus">connect with us:</div>
+		<div id="connectwithus">connect with us:</div>
 
-<div id="social-media-icons">
-{% if site.facebook_username %}
-    <a href="https://www.facebook.com/{{ site.facebook_username }}">
-      <i class="fa fa-facebook"></i>
-    </a>
-{% endif %}
+		<div id="social-media-icons">
+		<span id="facebook">
+		{% if site.facebook_username %}
+		    <a href="https://www.facebook.com/{{ site.facebook_username }}">
+		      <i class="fa fa-facebook" style="font-size: 2.4em;"></i>
+		    </a>
+		{% endif %}
+		</span>
+			
+		<span id="linkedin">
+		    <a href="https://linkedin.com/{{ site.linkedin_username }}">
+		      <i class="fa fa-linkedin" style="font-size: 2.4em;"></i>
+		    </a>
+		</span>
 
-    <a href="https://linkedin.com/{{ site.linkedin_username }}">
-      <i class="fa fa-linkedin"></i>
-    </a>
+		{% if site.twitter_username %}
+		    <a href="https://twitter.com/{{ site.twitter_username }}">
+		      <i class="fa fa-twitter" style="font-size: 2.4em;"></i>
+		    </a>
+		{% endif %}
+		</div>
 
-{% if site.twitter_username %}
-    <a href="https://twitter.com/{{ site.twitter_username }}">
-      <i class="fa fa-twitter"></i>
-    </a>
-{% endif %}
-</div>
+		<div id="copyright">
+		Copyright © 1999-2016, GrantStation.com, Inc. All rights reserved.
+		GrantStation and "Your fast track to funding" are registered trademarks of GrantStation.com, Inc. and may not be used without permission.
+		phone: 877-784-7268 | fax: 815-301-8188 | email: <a href="">info@grantstation.com</a><br />
+		<span id="terms"><a href="">GrantStation Terms of Use Agreement</a></span>
+		</div>
 
-<div id="copyright">
-Copyright © 1999-2016, GrantStation.com, Inc. All rights reserved.
-GrantStation and "Your fast track to funding" are registered trademarks of GrantStation.com, Inc. and may not be used without permission.
-phone: 877-784-7268 | fax: 815-301-8188 | email: <a href="">info@grantstation.com</a><br />
-<span id="terms"><a href="">GrantStation Terms of Use Agreement</a></span>
-</div>
-
-  </div>
+	</div>
 
 </footer>

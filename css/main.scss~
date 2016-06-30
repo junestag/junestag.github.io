@@ -3,8 +3,6 @@
 ---
 @charset "utf-8";
 
-
-
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
@@ -31,18 +29,6 @@ $content-width:    70%;
 $on-palm:          100%;
 $on-laptop:        80%;
 
-// Custom SASS
-Logo
-#logo-div {
-  float: left;
-}
-
-// nav <div>
-#nav-div,
-#nav-div2 {
-  float: right;
-}
-
 // Use media queries like this:
 // @include media-query($on-palm) {
 //     .wrapper {
@@ -66,6 +52,283 @@ Logo
 ;
 
 // Bootstrap styling
-
     
 @import "bootstrap";
+
+// Custom SASS
+Logo
+#logo-div {
+  float: left;
+}
+
+#slideshow-img {
+	min-height: 250px;
+	min-width: 200px;
+}
+
+#logo {
+  	height: 100px;
+	max-width: 100%;
+	margin-top: 5%;
+}
+
+.slideshow-nav-element {
+	margin-bottom: 12px;
+	display: inline-block;
+	color: #b3c9ec;
+	width: 100%;
+	padding-left: 6px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	text-transform: uppercase;
+}
+
+#membership {
+	display: inline-block;
+	background-image: url("/assets/arrow.png");
+	background-repeat: no-repeat;
+	background-size: 150px 30px;
+	color: white;
+}
+
+#slideshow-header {
+	font-size: 1.5em;
+	padding-bottom: 12px;
+}
+
+#slideshow-text {
+	padding-bottom: 12px;
+}
+
+// content boxes on home page
+#natfundalert,
+#regfundalert,
+#gsinsights,
+#talk2020,
+#memberlogin,
+#online-education,
+#free-newsletters {
+	background-color: white;
+	padding-bottom: 12px;
+	border: 1px solid #e1e1e1;
+	margin-top: 12px;
+}
+
+.header {
+	color: #003863;
+	text-transform: uppercase;
+	font-size: 1.125em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	border-bottom: 1px solid #e1e1e1;
+	background-color: #EBEBEB;
+	padding: 6px;
+}
+
+.box-image {
+	max-width: 100%;
+	height: auto;
+	margin-top: 45%;
+	margin-bottom: 35%;
+	text-align: center;
+}
+
+.box-image-large img {
+	width: 250px;
+	height: 190px;
+	padding-left: 18px;
+	margin-top: 18px;
+}
+
+.date,
+.nodetext {
+	padding: 12px;
+}
+
+.nodetitle {
+	padding-left: 12px;
+	padding-right: 12px;
+	font-size: 1.3em;
+}
+
+#tagline {
+	font-style: italic;
+	text-align: right;
+	font-size: 0.7em;
+}
+
+#nav-div2 {
+	text-align: center;
+	padding-top: 5%;
+	a {
+		color: #c03c03;
+	}
+}
+
+.nav-div2-link {
+	margin-right: 24px;
+	display: inline-block;
+	color: #c03c03;
+	font-size: 0.8em;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#pubresources {
+	font-size: 0.8em;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#join {
+	color: white;
+	background-color: #c03c03;
+	padding: 6px;
+	margin-right: 24px;
+	font-size: 0.8em;
+}
+
+#pubresources {
+	a {
+		color: #002A4A;
+	}
+}
+
+.site-nav {
+	text-align: center;
+	font-size: 0.7em;
+}
+
+a {
+	color: blue;
+	text-decoration: none;
+	a:hover {
+		text-decoration: none;
+		color: #003863;
+	}
+}
+
+.site-nav a {
+	color: #003863;
+}
+
+#join a:visited {
+	text-decoration: none;
+	color: white;		
+}
+
+.left-element {
+	text-align: left;
+	padding-left: 6%;
+}
+
+#username {
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+	margin-top: 6px;
+	display: inline-block;
+	margin-bottom: 6px;
+	padding-top: 6px;
+}
+
+#password {
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+	margin-top: 6px;
+	display: inline-block;
+	margin-bottom: 6px;
+}
+
+#forgot-your-login {
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+	margin-top: 6px;
+	display: inline-block;
+	margin-bottom: 6px;
+	padding-bottom: 6px;
+}
+
+.webinar {
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+.webinar-title {
+	display: inline-block;
+	width: 60%;
+	margin-left: 24px;
+	margin-top: 6px;
+}
+
+.webinar-date {
+	display: inline-block;
+	width: 20%;
+	text-align: right;
+	margin-right: 24px;
+	float: right;
+	margin-top: 6px;
+}
+
+#sign-up-announce {
+	padding-top: 18px;
+	padding-bottom: 18px;
+	text-align: left;
+	padding-left: 24px;
+}
+
+#news-checkbox {
+	text-align: left;
+	padding-left: 12px;
+	font-size: 0.8em;
+}
+
+.c-checkbox {
+	padding-left: 24px;
+	display: inline-block;
+	input {
+
+	}
+}
+
+.view-most-recent {
+	text-align: left;
+	padding-left: 54px;
+}
+
+#email-address {
+	margin-top: 12px;
+}
+
+
+
+#footer-nav {
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 18px;
+	padding-bottom: 6px;
+}
+
+#connectwithus {
+	font-size: 1.4em;
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+#social-media-icons {
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.fa {
+	color: white;
+}
+
+#facebook,
+#linkedin {
+	margin-right: 1%;
+	display: inline-block;
+}
+
+#copyright {
+	padding-top: 6px;
+	padding-bottom: 18px;	
+	font-family: 'Open Sans', sans-serif;
+}

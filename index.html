@@ -16,10 +16,10 @@ layout: home
 					National Funding Alert
 					</div>
 
-					<div class="row">
+					<div class="row" id="nat-funding-alert">
 						<div class="col-md-4">
 							<div class="box-image">
-								<img src="assets/rwjf.gif" />
+								<img src="assets/rwjf.gif" title="Robert Wood Johnson Foundation" />
 							</div>		
 						</div>
 						<div class="col-md-8">
@@ -42,7 +42,7 @@ layout: home
 					<div class="row">
 						<div class="col-md-4">
 							<div class="box-image">
-								<img src="assets/osf.png" />
+								<img src="assets/osf.png" title="Open Society Foundations" />
 							</div>		
 						</div>
 						<div class="col-md-8">
@@ -62,14 +62,14 @@ layout: home
 
 					<div class="row">
 						<div class="col-md-4">
-							<div class="box-image">
-								<img src="assets/Data_driven_journalism_process.png" />
+							<div class="box-image-large">
+								<img src="assets/Data_driven_journalism_process.png" title="Data" />
 							</div>		
 						</div>
 						<div class="col-md-8">
-							<div class="box-text">
-							Sure, funders want to see data that show what kind of impact your programs are having. But don’t let that squeeze the human element out of your reports to them, says Perla Ni, the founder of GreatNonprofits, the charity-review site .
-							</div>		
+								<div class="date">June 16, 2016</div>
+								<div class="nodetitle"><a href="">Data's Great...But Don't Forget Stories!</a></div>
+								<div class="nodetext">Sure, funders want to see data that show what kind of impact your programs are having. But don’t let that squeeze the human element out of your reports to them, says Perla Ni, the founder of GreatNonprofits, the charity-review site .</div>	
 						</div>
 					</div>
 
@@ -83,14 +83,15 @@ layout: home
 
 					<div class="row">
 						<div class="col-md-4">
-							<div class="box-image">
-								<img src="assets/Social-Impact-Investment_FlowChart.jpg" />
+							<div class="box-image-large">
+								<img src="assets/Social-Impact-Investment_FlowChart.jpg" title="Impact Investing" />
 							</div>		
 						</div>
 						<div class="col-md-8">
-							<div class="box-text">
-							GrantStation's CEO Cynthia Adams speaks of trends and the related tools she is seeing in the world of philanthropy. This week we talk with our CEO, Cynthia Adams, about Impact Investing, a topic that will be covered at  Innovations 2016: A GrantStation Forum on Philanthropy.
-							</div>		
+								<div class="date">June 16, 2016</div>
+								<div class="nodetitle"><a href="">Impact Investing Understanding & Examples</a></div>
+								<div class="nodetext">GrantStation's CEO Cynthia Adams speaks of trends and the related tools she is seeing in the world of philanthropy. This week we talk with our CEO, Cynthia Adams, about Impact Investing, a topic that will be covered at  Innovations 2016: A GrantStation Forum on Philanthropy. 	</div>
+
 						</div>
 					</div>
 
@@ -108,12 +109,12 @@ layout: home
 
 					<div class="form">
 						<form>
-						Username: <br />
-						<input type="text">
-						Password: <br />
-						<input type="password">
-						<input type="submit" value="Login"><br /><br />
-						<a href="">Forgot your Login or Password?</a>
+						<div class="left-element"><span id="username">Username:</span></div>
+						<div class="col-md-12"><input type="text" class="form-control"></div>
+						<div class="left-element"><span id="password">Password:</span></div>
+						<div class="col-md-12"><input type="password" class="form-control"></div>
+						<p id="login"><a href="">Login</a></p><br />
+						<span id="forgot-your-login"><a href="">Forgot your Login or Password?</a></span>
 						</form>
 					</div>
 
@@ -126,80 +127,86 @@ layout: home
 					</div>
 
 					<div class="ed-listings">
-						<div class="row">
-							<div class="row-md-8">
+						<div class="webinar">
+							<span class="webinar-title">
 								<a href="">Innovations 2016: Live</a>
-							</div>
-							<div class="row-md-4">
+							</span>
+							<span class="webinar-date">
 								6/13/2016
-							</div>
+							</span>
 						</div>
-						<div class="row">
-							<div class="row-md-8">
+						<div class="webinar">
+							<span class="webinar-title">
 								<a href="">Grants: How to Get Them and What to do Next</a>
-							</div>
-							<div class="row-md-4">
+							</span>
+							<span class="webinar-date">
 								6/16/2016
-							</div>
+							</span>
 						</div>
-						<div class="row">
-							<div class="row-md-8">
+						<div class="webinar">
+							<span class="webinar-title">
 								<a href="">FREE Tour of the GrantStation Website</a>
-							</div>
-							<div class="row-md-4">
+							</span>
+							<span class="webinar-date">
 								6/21/2016
-							</div>
+							</span>
 						</div>
-						<div class="row">
-							<div class="row-md-8">
+						<div class="webinar">
+							<span class="webinar-title">
 								<a href="">The Invisible Yellow Line: Nonprofit Governance</a>
-							</div>
-							<div class="row-md-4">
+							</span>
+							<span class="webinar-date">
 								7/14/2016
-							</div>
+							</span>
 						</div>
-						<div class="row">
-							<div class="row-md-8">
+						<div class="webinar">
+							<span class="webinar-title">
 								<a href="">Logic Models: More than Just Extra Work!</a>
-							</div>
-							<div class="row-md-4">
+							</span>
+							<span class="webinar-date">
 								7/26/2016
-							</div>
+							</span>
 						</div>
-						<div class="row">
-							<div class="row-md-8">
+						<div class="webinar">
+							<span class="webinar-title">
 								<a href="">How to Craft a Proposal to a Foundation</a>
-							</div>
-							<div class="row-md-4">
+							</span>
+							<span class="webinar-date">
 								7/28/2016
-							</div>
+							</span>
 						</div>
-						<div class="row">
-							<div class="row-md-8">
+						<div class="webinar">
+							<span class="webinar-title">
 								<a href="">Saving Time and Energy with Excel Pivot Tables</a>
-							</div>
-							<div class="row-md-4">
+							</span>
+							<span class="webinar-date">
 								8/4/2016
-							</div>
+							</span>
 						</div>
 					</div>
 
-				<div id="memberlogin">
+				</div>
+
+				<div id="free-newsletters">
 
 					<div class="header">
 					Free Newsletters
 					</div>
 
 					<div class="form">
-						<form>
-						Sign up for our announcements of timely grant opportunities and more!<br />
-						<input type="checkbox"> GrantStation Insider (weekly)<br />
-						<a href="">View the most recent issue</a>
-						<input type="checkbox"> International Insider (monthly)<br />
-						<a href="">View the most recent issue</a>
-						<input type="text" value="your email address" onfocus="if (this.value=='your email address') this.value = ''">
-						<input type="submit" value="Subscribe"><br />
-						</form>
+						
+						<div id="sign-up-announce">Sign up for our announcements of timely grant opportunities and more!</div>
+						<div id="news-checkbox"><label class="c-input c-checkbox"><input type="checkbox">
+						<span class="c-indicator"></span> GrantStation Insider (weekly)</label></div>
+						<div class="view-most-recent"><a href="">View the most recent issue</a></div>
+						<div id="news-checkbox"><label class="c-input c-checkbox"><input type="checkbox">
+						<span class="c-indicator"></span> International Insider (monthly)</label></div>
+						<div class="view-most-recent"><a href="">View the most recent issue</a></div>
+						<div class="col-md-12">
+						<input type="text" value="your email address" onfocus="if (this.value=='your email address') this.value = ''" class="form-control" id="email-address"></div>
+						<p id="login" class="subscribe-button"><a href="">Subscribe</a></p><br />
+						
+						
 					</div>
 
 				</div>

@@ -4,21 +4,25 @@
     	<div class="row">
 
 		<div class="col-md-3">
-		Membership<br />
-		Webinar Spotlight<br />
-		Partner Depot<br />
-		GS Insights<br />
-		State of Grantseeking<br />
+		<div id="slideshow-nav">
+		<span id="membership" class="slideshow-nav-element">Membership</span><br />
+		<span class="slideshow-nav-element">Webinar Spotlight</span><br />
+		<span class="slideshow-nav-element">Partner Depot</span><br />
+		<span class="slideshow-nav-element">GS Insights</span><br />
+		<span class="slideshow-nav-element" id="sog">State of Grantseeking</span><br />
+		</div>
 		</div>
 
 		<div class="col-md-4">
-		<img src="/assets/startup-photos.jpg" />
+		<img src="/assets/startup-photos.jpg" id="slideshow-img" />
 		</div>
 
 		<div class="col-md-5">
+		<div id="slideshow-content">
 		<div id="slideshow-header">Give your membership the tools to build their grants program.</div>
 		<div id="slideshow-text">We are dedicated to creating a civil society by assisting the nonprofit sector.</div>
-		<button tvalue="Learn More">
+		<p id="learnmore"><a href="">Learn More</a></p>
+		</div>
 		</div>
 
 	</div>
