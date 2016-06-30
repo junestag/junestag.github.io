@@ -95,10 +95,14 @@ Logo
 
 #membership {
 	display: inline-block;
-	background-image: url("/assets/arrow.png");
-	background-repeat: no-repeat;
-	background-size: 150px 30px;
+	position: absolute;
 	color: white;
+}
+
+#font-arrow {
+	position: absolute;
+	z-index: 0;
+	color: blue;
 }
 
 #slideshow-header {
@@ -331,7 +335,10 @@ a {
 .view-most-recent {
 	text-align: left;
 	padding-left: 54px;
-	font-size: 0.8em;
+	font-size: 1em;
+	@media screen and (max-width: 1440px) {
+		font-size: 0.8em;
+	}
 }
 
 #email-address {
