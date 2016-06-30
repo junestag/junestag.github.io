@@ -287,6 +287,7 @@ a {
 
 .webinar-title {
 	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
 	width: 60%;
 	margin-left: 24px;
 	margin-top: 6px;
@@ -294,6 +295,7 @@ a {
 
 .webinar-date {
 	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
 	width: 20%;
 	text-align: right;
 	margin-right: 24px;
@@ -306,10 +308,12 @@ a {
 	padding-bottom: 18px;
 	text-align: left;
 	padding-left: 24px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 #news-checkbox {
 	text-align: left;
+	font-family: 'Open Sans', sans-serif;
 	padding-left: 12px;
 	font-size: 1em;
 	@media screen and (max-width: 1440px) {
@@ -327,6 +331,7 @@ a {
 
 .view-most-recent {
 	text-align: left;
+	font-family: 'Open Sans', sans-serif;
 	padding-left: 54px;
 	font-size: 1em;
 	@media screen and (max-width: 1440px) {
