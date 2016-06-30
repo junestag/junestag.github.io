@@ -64,12 +64,22 @@ Logo
 #slideshow-img {
 	min-height: 250px;
 	min-width: 200px;
+	@media screen and (max-width: 1440px) {
+		min-height: 225px;
+	}
 }
 
 #logo {
   	height: 100px;
 	max-width: 100%;
 	margin-top: 5%;
+}
+
+#slideshow-nav {
+	font-size: 1em;
+	@media screen and (max-width: 1440px) {
+		font-size: 0.8em;
+	}
 }
 
 .slideshow-nav-element {
@@ -94,10 +104,16 @@ Logo
 #slideshow-header {
 	font-size: 1.5em;
 	padding-bottom: 12px;
+	@media screen and (max-width: 1440px) {
+		font-size: 1.2em;
+	}
 }
 
 #slideshow-text {
 	padding-bottom: 12px;
+	@media screen and (max-width: 1440px) {
+		font-size: 0.9em;
+	}
 }
 
 // content boxes on home page
@@ -131,6 +147,9 @@ Logo
 	margin-top: 45%;
 	margin-bottom: 35%;
 	text-align: center;
+	@media screen and (max-width: 1440px) {
+		margin-top: 80%;
+	}
 }
 
 .box-image-large img {
@@ -138,6 +157,9 @@ Logo
 	height: 190px;
 	padding-left: 18px;
 	margin-top: 18px;
+	@media screen and (max-width: 1440px) {
+		height: 140px;
+	}
 }
 
 .date,
@@ -154,7 +176,10 @@ Logo
 #tagline {
 	font-style: italic;
 	text-align: right;
-	font-size: 0.7em;
+	font-size: 0.8em;
+	@media screen and (max-width: 1440px) {
+		font-size: 0.7em;
+	}
 }
 
 #nav-div2 {
@@ -169,13 +194,19 @@ Logo
 	margin-right: 24px;
 	display: inline-block;
 	color: #c03c03;
-	font-size: 0.8em;
+	font-size: 1.1em;
+	@media screen and (max-width: 1440px) {
+		font-size: 0.8em;
+	}
 	font-family: 'Open Sans', sans-serif;
 }
 
 #pubresources {
-	font-size: 0.8em;
+	font-size: 1.1em;
 	font-family: 'Open Sans', sans-serif;
+	@media screen and (max-width: 1440px) {
+		font-size: 0.8em;
+	}
 }
 
 #join {
@@ -183,7 +214,10 @@ Logo
 	background-color: #c03c03;
 	padding: 6px;
 	margin-right: 24px;
-	font-size: 0.8em;
+	font-size: 1.1em;
+	@media screen and (max-width: 1440px) {
+		font-size: 0.8em;
+	}
 }
 
 #pubresources {
@@ -194,7 +228,10 @@ Logo
 
 .site-nav {
 	text-align: center;
-	font-size: 0.7em;
+	font-size: 0.9em;
+	@media screen and (max-width: 1440px) {
+		font-size: 0.7em;
+	}
 }
 
 a {
@@ -277,7 +314,10 @@ a {
 #news-checkbox {
 	text-align: left;
 	padding-left: 12px;
-	font-size: 0.8em;
+	font-size: 1em;
+	@media screen and (max-width: 1440px) {
+		font-size: 0.8em;
+	}
 }
 
 .c-checkbox {
@@ -291,6 +331,7 @@ a {
 .view-most-recent {
 	text-align: left;
 	padding-left: 54px;
+	font-size: 0.8em;
 }
 
 #email-address {
