@@ -2,7 +2,9 @@
 
 	<div class="footer-wrapper">
 
-		<div id="footer-nav">JOIN | Find Grantmakers | Build Strategy | Write Proposals | Public Resources</div>
+	<img src="assets/050a6b32-a102-45cb-9e67-12981641c483.gif">
+
+		<div id="footer-nav"><a href="">JOIN</a> | <a href="">Find Grantmakers</a> | <a href="">Build Strategy</a> | <a href="">Write Proposals</a> | <a href="">Public Resources</a></div>
 
 		<div id="connectwithus">connect with us:</div>
 

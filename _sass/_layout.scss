@@ -100,7 +100,7 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    //border-top: 1px solid $grey-color-light;
     background-color: $navy-blue;
     color: white;
 }
@@ -172,6 +172,7 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    padding-bottom: 0px;
     background-color: $light-gray;
 }
 
@@ -215,7 +216,7 @@
 #login {
 	color: white;
 	background-color: #c03c03;
-	width: 120px;
+	margin-right: 12px;
 	text-align: center;
 	padding-top: 6px;
 	padding-bottom: 6px;

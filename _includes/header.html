@@ -11,21 +11,11 @@
 
 			<div class="col-md-8">
 				<div class="row">
-					<div class="col-md-8">
-						<div id="nav-div">
-							<nav class="site-nav">
-							{% for my_page in site.pages %}
-							{% if my_page.title %}
-							<a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-							{% endif %}
-							{% endfor %}
-							</nav>
-						</div>
-					</div>
 
-					<div class="col-md-4">
+
+					<div class="col-md-12">
 					<div id="tagline">
-			   		We help grantseekers connect with the right grantmakers for making your projects and programs successful.
+			   		<i class="fa fa-bars" aria-hidden="true" style="color: black; font-size: 1.8em;"'></i>
 			  		</div>
 					</div>
 
@@ -33,11 +23,13 @@
  
 		      		<div class="row">
 		       			<div id="nav-div2">
+					<div id="sub-nav-div2">
 					<span class="nav-div2-link" id="join"><a href="">JOIN</a></span>
-					<span class="nav-div2-link"><a href="">FIND GRANTMAKERS</a></span>
-					<span class="nav-div2-link"><a href="">BUILD STRATEGY</a></span>
-					<span class="nav-div2-link"><a href="">WRITE PROPOSALS</a></span>
-					<span id="pubresources"><a href="">PUBLIC RESOURCES</a></span>
+					<span class="nav-div2-link" id="find"><a href="">FIND GRANTMAKERS</a></span>
+					<span class="nav-div2-link" id="build"><a href="">BUILD STRATEGY</a></span>
+					<span class="nav-div2-link" id="write"><a href="">WRITE PROPOSALS</a></span>
+					</div>
+					<span id="pubresources" id="pub"><a href="">PUBLIC RESOURCES</a></span>
 		       			</div>
 		      		</div>
 

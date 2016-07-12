@@ -70,7 +70,7 @@ Logo
 }
 
 #logo {
-  	height: 100px;
+  	height: 125px;
 	max-width: 100%;
 	margin-top: 5%;
 }
@@ -91,6 +91,12 @@ Logo
 	padding-top: 3px;
 	padding-bottom: 3px;
 	text-transform: uppercase;
+	a {
+		color: #b3c9ec;	
+	}
+	a:visited {
+		color: #b3c9ec;	
+	}
 }
 
 #membership {
@@ -116,6 +122,7 @@ Logo
 // content boxes on home page
 #natfundalert,
 #regfundalert,
+#fedfundalert,
 #gsinsights,
 #talk2020,
 #memberlogin,
@@ -127,6 +134,10 @@ Logo
 	margin-top: 12px;
 }
 
+#online-education {
+	background-color: #b3c9ec;
+}
+
 .header {
 	color: #003863;
 	text-transform: uppercase;
@@ -136,61 +147,127 @@ Logo
 	border-bottom: 1px solid #e1e1e1;
 	background-color: #EBEBEB;
 	padding: 6px;
+	height: 38px;
+}
+
+.view-all-whatever {
+	font-size: 0.7em;
+	text-transform: initial;
+	padding-right: 6px;
+	border: 1px solid #e1e1e1;
+	background-color: #f1f1f1;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 6px;
+	padding-right: 6px;
+	display: block;
+	a {
+	color: #c03c03;
+	text-decoration: none;
+	}
+	a:visited {
+	color: #c03c03;
+	text-decoration: none;
+	}
+}
+
+.right-arrow {
+	float:right;
+	:hover {
+	background-color: #d3d3d3;
+	}
+	.fa {
+		color: #c03c03;
+	}
+}
+
+.fa-arrow-circle-right {
+	color: #c03c03;
 }
 
 .box-image {
-	max-width: 100%;
-	height: auto;
-	margin-top: 45%;
-	margin-bottom: 35%;
 	text-align: center;
-	@media screen and (max-width: 1440px) {
-		margin-top: 80%;
-	}
+	clear: both;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 .box-image-large img {
 	width: 250px;
 	height: 190px;
 	padding-left: 18px;
-	margin-top: 18px;
+	margin-top: 45%;
 	@media screen and (max-width: 1440px) {
 		height: 140px;
 	}
 }
 
-.date,
-.nodetext {
-	padding: 12px;
+.box-image-medium {
+	width: 250px;
+	padding-left: 18px;
+	margin-top: 40%;
+	@media screen and (max-width: 1440px) {
+		
+	}
+}
+
+#usernamediv {
+	padding-top: 12px;
+}
+
+#passworddiv {
+	padding-top: 44px;
+}
+
+.date {
+	margin-left: 5%;
+	float: left;
+	margin-top: 1.5%;
+	width: 20%;
 }
 
 .nodetitle {
+	float: right;
+	margin-right: 5%;
+	margin-top: 1%;
 	padding-left: 12px;
 	padding-right: 12px;
 	font-size: 1.3em;
+	width: 70%;
+}
+
+.nodetext {
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 #tagline {
 	font-style: italic;
 	text-align: right;
-	font-size: 0.8em;
 	@media screen and (max-width: 1440px) {
-		font-size: 0.7em;
+
 	}
 }
 
 #nav-div2 {
 	text-align: center;
-	padding-top: 5%;
+	padding-top: 10%;
 	a {
 		color: #c03c03;
 	}
 }
 
+#sub-nav-div2 {
+	display: inline-block;
+	background-color: #c03c03;
+	border-radius: 12px;
+}
+
 .nav-div2-link {
 	margin-right: 24px;
 	display: inline-block;
-	color: #c03c03;
+	border-radius: 12px;
+	margin-left: 12px;
 	font-size: 1.1em;
 	@media screen and (max-width: 1440px) {
 		font-size: 0.8em;
@@ -200,6 +277,7 @@ Logo
 
 #pubresources {
 	font-size: 1.1em;
+	margin-left: 12px;
 	font-family: 'Open Sans', sans-serif;
 	@media screen and (max-width: 1440px) {
 		font-size: 0.8em;
@@ -207,7 +285,6 @@ Logo
 }
 
 #join {
-	color: white;
 	background-color: #c03c03;
 	padding: 6px;
 	margin-right: 24px;
@@ -215,6 +292,12 @@ Logo
 	@media screen and (max-width: 1440px) {
 		font-size: 0.8em;
 	}
+}
+
+#find,
+#build,
+#write {
+	color: white;
 }
 
 #pubresources {
@@ -244,7 +327,18 @@ a {
 	color: #003863;
 }
 
-#join a:visited {
+#join a,
+#find a,
+#write a,
+#build a {
+	text-decoration: none;
+	color: white;		
+}
+
+#join a:visited,
+#find a:visited,
+#write a:visited,
+#build a:visited {
 	text-decoration: none;
 	color: white;		
 }
@@ -274,6 +368,7 @@ a {
 #forgot-your-login {
 	font-family: 'Open Sans', sans-serif;
 	text-align: left;
+	font-size: 0.8em;
 	margin-top: 6px;
 	display: inline-block;
 	margin-bottom: 6px;
@@ -308,6 +403,7 @@ a {
 	padding-bottom: 18px;
 	text-align: left;
 	padding-left: 24px;
+	padding-right: 24px;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -315,6 +411,7 @@ a {
 	text-align: left;
 	font-family: 'Open Sans', sans-serif;
 	padding-left: 12px;
+	padding-right: 12px;
 	font-size: 1em;
 	@media screen and (max-width: 1440px) {
 		font-size: 0.8em;
@@ -323,6 +420,7 @@ a {
 
 .c-checkbox {
 	padding-left: 24px;
+	padding-right: 24px;
 	display: inline-block;
 	input {
 
@@ -333,6 +431,7 @@ a {
 	text-align: left;
 	font-family: 'Open Sans', sans-serif;
 	padding-left: 54px;
+	padding-right: 54px;
 	font-size: 1em;
 	@media screen and (max-width: 1440px) {
 		font-size: 0.8em;
@@ -343,7 +442,11 @@ a {
 	margin-top: 12px;
 }
 
-
+#in-banner {
+	width: 100%;
+	margin-top: 1%;
+	height: 125px;
+}
 
 #footer-nav {
 	font-family: 'Open Sans', sans-serif;
