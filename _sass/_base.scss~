@@ -177,8 +177,11 @@ pre {
 .headerwrapper {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-    margin-right: 15%;
-    margin-left: 15%;
+	@media all and (min-width: 1801px) {
+		max-width: 70%;
+	}
+    margin-right: auto;
+    margin-left: auto;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
     @extend %clearfix;

@@ -24,7 +24,7 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    70%;
+$content-width:    90%;
 
 $on-palm:          100%;
 $on-laptop:        80%;
@@ -62,11 +62,8 @@ Logo
 }
 
 #slideshow-img {
-	min-height: 250px;
-	min-width: 200px;
-	@media screen and (max-width: 1440px) {
-		min-height: 225px;
-	}
+	max-width: 100%;
+	height: auto;
 }
 
 #logo {
@@ -251,7 +248,7 @@ Logo
 
 #nav-div2 {
 	text-align: center;
-	padding-top: 10%;
+	padding-top: 8%;
 	a {
 		color: #c03c03;
 	}
@@ -261,6 +258,7 @@ Logo
 	display: inline-block;
 	background-color: #c03c03;
 	border-radius: 12px;
+	padding: 6px;
 }
 
 .nav-div2-link {
@@ -284,11 +282,18 @@ Logo
 	}
 }
 
+$new-orange: lighten(#c03c03, 18);
+
 #join {
-	background-color: #c03c03;
-	padding: 6px;
+	background-color: $new-orange;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	display: inline-block;
 	margin-right: 24px;
 	font-size: 1.1em;
+	border-radius: 6px;
 	@media screen and (max-width: 1440px) {
 		font-size: 0.8em;
 	}
