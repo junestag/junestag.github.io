@@ -166,6 +166,7 @@ Logo
 	height: 38px;
 }
 
+// view all boxes
 .view-all-whatever {
 	font-size: 0.7em;
 	text-transform: initial;
@@ -187,6 +188,7 @@ Logo
 	}
 }
 
+// arrow next to 'view all' in content area
 .right-arrow {
 	float:right;
 	:hover {
@@ -197,10 +199,12 @@ Logo
 	}
 }
 
+// arrow next to view all in content area
 .fa-arrow-circle-right {
 	color: #c03c03;
 }
 
+// Styling for div around images in content area - NOT USED
 .box-image {
 	text-align: center;
 	clear: both;
@@ -209,19 +213,21 @@ Logo
 	max-width: 100%;
 }
 
+// Alternative styling for images to right of dates
 .box-image-sub {
 	padding-top: 15px;
 	padding-bottom: 25px;
 	text-align: left;
 }
 
+// Alternative styling for Invisible Yellow Line
 .box-image-sub-2 {
 	margin-left: 7.5%;
 	padding-top: 15px;
 	padding-bottom: 25px;
 }
 
-// Alternative styling for 
+// Alternative styling for 'Elevate'
 .box-image-sub-3 {
 	margin-left: 5%;
 	padding-top: 15px;
