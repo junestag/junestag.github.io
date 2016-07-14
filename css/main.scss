@@ -135,6 +135,10 @@ Logo
 	}
 }
 
+#top-nav-div {
+	padding-right: 0px;
+}
+
 // content boxes on home page
 #natfundalert,
 #regfundalert,
@@ -337,16 +341,19 @@ Logo
 
 #tagline {
 	font-style: italic;
-	text-align: center;
-	font-size: 1.1em;
+	text-align: right;
+	font-size: 1.3em;
 	height: 30px;
 	@media screen and (max-width: 1440px) {
 		font-size: 0.9em;
 	}
 }
 
+#sub-nav-row {
+	text-align: right;
+}
+
 #nav-div2 {
-	text-align: center;
 	padding-top: 1%;
 	display: inline-block;
 	white-space: nowrap;
