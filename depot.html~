@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: home3
 ---
 
 <div class="home">
@@ -130,7 +130,7 @@ layout: home
 
 					<div class="row">
 							<div class="col-sm-4">
-							<div class="date-sub">June 16, 2016</div>
+							<div class="date-sub-4">June 16, 2016</div>
 							</div>
 							<div class="col-sm-8">
 							<div class="box-image-sub-3">

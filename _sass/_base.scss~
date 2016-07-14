@@ -23,6 +23,7 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+    overflow-x: hidden;
 }
 
 
@@ -158,6 +159,9 @@ pre {
 .wrapper {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+	@media all and (min-width: 1801px) {
+		max-width: 70%;
+	}
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;
@@ -198,6 +202,9 @@ pre {
 .footer-wrapper {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+	@media all and (min-width: 1801px) {
+		max-width: 70%;
+	}
     margin-right: auto;
     margin-left: auto;
     text-align: center;
@@ -225,6 +232,9 @@ pre {
 .slideshow {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+	@media all and (min-width: 1801px) {
+		max-width: 70%;
+	}
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;

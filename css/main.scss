@@ -61,9 +61,28 @@ Logo
   float: left;
 }
 
+#logo-col {
+	//height: 150px;
+}
+
 #slideshow-img {
-	max-width: 100%;
-	height: auto;
+	//max-width: 100%;
+	//height: auto;
+}
+
+#slideshow2-col,
+#slideshow3-col {
+	text-align: center;	
+}
+
+#slideshow2-img {
+	display: inline-block;
+	margin-top: 15%;
+}
+
+#slideshow3-img {
+	display: inline-block;
+	margin-top: 20%;
 }
 
 #logo {
@@ -147,6 +166,7 @@ Logo
 	height: 38px;
 }
 
+// view all boxes
 .view-all-whatever {
 	font-size: 0.7em;
 	text-transform: initial;
@@ -168,27 +188,60 @@ Logo
 	}
 }
 
+// arrow next to 'view all' in content area
 .right-arrow {
 	float:right;
 	:hover {
-	background-color: #d3d3d3;
+		background-color: #d3d3d3;
 	}
 	.fa {
 		color: #c03c03;
 	}
 }
 
+// arrow next to view all in content area
 .fa-arrow-circle-right {
 	color: #c03c03;
 }
 
+// Styling for div around images in content area - NOT USED
 .box-image {
 	text-align: center;
 	clear: both;
 	padding-top: 25px;
 	padding-bottom: 25px;
+	max-width: 100%;
 }
 
+// Alternative styling for images to right of dates
+.box-image-sub {
+	padding-top: 15px;
+	padding-bottom: 25px;
+	text-align: left;
+}
+
+// Alternative styling for Invisible Yellow Line
+.box-image-sub-2 {
+	margin-left: 7.5%;
+	padding-top: 15px;
+	padding-bottom: 25px;
+}
+
+// Alternative styling for 'Elevate'
+.box-image-sub-3 {
+	margin-left: 5%;
+	padding-top: 15px;
+	padding-bottom: 25px;
+}
+
+// Make top three images in content area smaller
+#rwj-img img,
+#osf-img img,
+#afcf-img img {
+	width: 50%;
+}
+
+// Old style used with box around image in content area - NOT USED
 .box-image-large img {
 	width: 250px;
 	height: 190px;
@@ -199,6 +252,7 @@ Logo
 	}
 }
 
+// Old style used with box around image in content area - NOT USED
 .box-image-medium {
 	width: 250px;
 	padding-left: 18px;
@@ -208,19 +262,46 @@ Logo
 	}
 }
 
+// Div around username in login area
 #usernamediv {
 	padding-top: 12px;
 }
 
+// Div around password in login area
 #passworddiv {
 	padding-top: 44px;
 }
 
+// Date formatting in content area
 .date {
 	margin-left: 5%;
 	float: left;
 	margin-top: 1.5%;
 	width: 20%;
+}
+
+// substitute date (used for date to left of image) - used on RWJ and OSF
+.date-sub {
+	margin-left: 12%;
+	margin-top: 20%;
+}
+
+// Alternative date placement - used by Children & Families
+.date-sub-2 {
+	margin-left: 12%;
+	margin-top: 10%;
+}
+
+// Alternative date placement - used by the Invisible Yellow Line
+.date-sub-3 {
+	margin-left: 12%;
+	margin-top: 27.5%;
+}
+
+// Alternative date placement - used by 'Elevate'
+.date-sub-4 {
+	margin-left: 12%;
+	margin-top: 15%;
 }
 
 .nodetitle {
@@ -233,14 +314,32 @@ Logo
 	width: 70%;
 }
 
+.nodetitle-sub {
+	clear: both;
+	margin-right: 5%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	padding-left: 12px;
+	padding-right: 12px;
+	font-size: 1.3em;
+	width: 100%;
+	text-align: center;
+}
+
 .nodetext {
 	margin-left: 5%;
 	margin-right: 5%;
 }
 
+#hamburger {
+	text-align: right;
+}
+
 #tagline {
 	font-style: italic;
-	text-align: right;
+	text-align: center;
+	font-size: 1.1em;
+	height: 30px;
 	@media screen and (max-width: 1440px) {
 
 	}
@@ -248,23 +347,26 @@ Logo
 
 #nav-div2 {
 	text-align: center;
-	padding-top: 8%;
+	padding-top: 1%;
+	display: inline-block;
+	white-space: nowrap;
 	a {
 		color: #c03c03;
+	}
+	@media all and (max-width: 815px) {
+		white-space: normal;
 	}
 }
 
 #sub-nav-div2 {
 	display: inline-block;
 	background-color: #c03c03;
-	border-radius: 12px;
 	padding: 6px;
 }
 
 .nav-div2-link {
 	margin-right: 24px;
 	display: inline-block;
-	border-radius: 12px;
 	margin-left: 12px;
 	font-size: 1.1em;
 	@media screen and (max-width: 1440px) {
@@ -285,7 +387,7 @@ Logo
 $new-orange: lighten(#c03c03, 18);
 
 #join {
-	background-color: $new-orange;
+	background-color: white;
 	padding-left: 12px;
 	padding-right: 12px;
 	padding-top: 6px;
@@ -293,10 +395,19 @@ $new-orange: lighten(#c03c03, 18);
 	display: inline-block;
 	margin-right: 24px;
 	font-size: 1.1em;
-	border-radius: 6px;
 	@media screen and (max-width: 1440px) {
 		font-size: 0.8em;
 	}
+}
+
+#tagline-intro {
+	color: black;
+	font-weight: bold;
+}
+
+#tagline-ending {
+	color: #003863;
+	font-weight: bold;
 }
 
 #find,
@@ -308,12 +419,21 @@ $new-orange: lighten(#c03c03, 18);
 #pubresources {
 	a {
 		color: #002A4A;
+		text-decoration: none;
+	}
+	a: visited {
+		color: #002A4A;
+		text-decoration: none;
+	}
+	a: hover {
+		text-decoration: none;
 	}
 }
 
 .site-nav {
-	text-align: center;
-	font-size: 0.9em;
+	text-align: right;
+	height: 50px;
+	padding-bottom: 0px;
 	@media screen and (max-width: 1440px) {
 		font-size: 0.7em;
 	}
@@ -333,6 +453,13 @@ a {
 }
 
 #join a,
+#join a:visited {
+	color: #c03c03;
+	font-weight: bold;
+	font-size: 1.3em;
+	text-decoration: none;
+}
+
 #find a,
 #write a,
 #build a {
@@ -340,7 +467,6 @@ a {
 	color: white;		
 }
 
-#join a:visited,
 #find a:visited,
 #write a:visited,
 #build a:visited {
@@ -389,6 +515,23 @@ a {
 	display: inline-block;
 	font-family: 'Open Sans', sans-serif;
 	width: 60%;
+	font-size: 1.2em;
+	margin-left: 24px;
+	margin-top: 6px;
+}
+
+.webinar-title a,
+.webinar-title a:visited,
+.ondemand-title a,
+.ondemand-title a:visited {
+	color: #003863;
+}
+
+.ondemand-title {
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	margin-right: 24px;
+	font-size: 1.2em;
 	margin-left: 24px;
 	margin-top: 6px;
 }
@@ -401,6 +544,10 @@ a {
 	margin-right: 24px;
 	float: right;
 	margin-top: 6px;
+}
+
+#insider-logo {
+	margin-top: 3%;
 }
 
 #sign-up-announce {
@@ -450,7 +597,7 @@ a {
 #in-banner {
 	width: 100%;
 	margin-top: 1%;
-	height: 125px;
+	display: block;
 }
 
 #footer-nav {
