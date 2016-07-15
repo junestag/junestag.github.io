@@ -35,12 +35,12 @@
 
     .page-link {
         color: #003;
-        line-height: $base-line-height;
+        //line-height: $base-line-height;
 	font-family: 'Open Sans', sans-serif;
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
-            margin-right: 20px;
+            //margin-right: 20px;
         }
     }
 
@@ -100,7 +100,7 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    //border-top: 1px solid $grey-color-light;
     background-color: $navy-blue;
     color: white;
 }

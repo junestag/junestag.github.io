@@ -341,8 +341,9 @@ Logo
 
 #tagline {
 	font-style: italic;
-	text-align: right;
-	font-size: 1.3em;
+	text-align: center;
+	font-size: 1.2em;
+	margin-top: 3%;
 	height: 30px;
 	@media screen and (max-width: 1440px) {
 		font-size: 0.9em;
@@ -385,6 +386,7 @@ Logo
 #pubresources {
 	font-size: 1.1em;
 	margin-left: 12px;
+	margin-right: 24px;
 	font-family: 'Open Sans', sans-serif;
 	@media screen and (max-width: 1440px) {
 		font-size: 0.8em;
@@ -439,7 +441,7 @@ $new-orange: lighten(#c03c03, 18);
 
 .site-nav {
 	text-align: right;
-	height: 50px;
+	//height: 50px;
 	padding-bottom: 0px;
 	@media screen and (max-width: 1440px) {
 		font-size: 0.7em;
