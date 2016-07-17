@@ -21,12 +21,7 @@
 </div>
 <div class="col-md-2">
 						<div id="nav-div">
-							<nav class="site-nav">
-							<a href="help.html">About</a><br />
-							<a href="contact.html">Contact</a><br />
-							<a href="my_cart.html">My Cart</a><br />
-							<a href="search.html">Site Search</a><br />
-							</nav>
+<i class="fa fa-bars" aria-hidden="true" style="color: black; font-size: 1.8em;"'></i>
 						</div>
 </div>
 </div>

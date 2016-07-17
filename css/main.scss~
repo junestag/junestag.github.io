@@ -99,12 +99,12 @@ Logo
 }
 
 .slideshow-nav-element {
-	margin-bottom: 12px;
 	display: inline-block;
 	color: #b3c9ec;
 	width: 100%;
-	padding-left: 6px;
-	padding-top: 3px;
+	height: 45px;
+	padding-left: 18px;
+	padding-top: 12px;
 	padding-bottom: 3px;
 	text-transform: uppercase;
 	a {
@@ -112,6 +112,51 @@ Logo
 	}
 	a:visited {
 		color: #b3c9ec;	
+	}
+}
+
+#content1 #membership {
+	a {
+		color: white;	
+	}
+	a:visited {
+		color: white;	
+	}
+}
+
+#content2 #spotlight {
+	a {
+		color: white;	
+	}
+	a:visited {
+		color: white;	
+	}
+}
+
+#content3 #depot {
+	a {
+		color: white;	
+	}
+	a:visited {
+		color: white;	
+	}
+}
+
+#content4 #insights {
+	a {
+		color: white;	
+	}
+	a:visited {
+		color: white;	
+	}
+}
+
+#content5 #sog {
+	a {
+		color: white;	
+	}
+	a:visited {
+		color: white;	
 	}
 }
 
@@ -342,7 +387,7 @@ Logo
 #tagline {
 	font-style: italic;
 	text-align: center;
-	font-size: 1.3em;
+	font-size: 1.2em;
 	margin-top: 3%;
 	height: 30px;
 	@media screen and (max-width: 1440px) {
@@ -366,10 +411,16 @@ Logo
 	}
 }
 
+#nav-div {
+	margin-top: 18%;
+	text-align: right;
+}
+
 #sub-nav-div2 {
 	display: inline-block;
 	background-color: #c03c03;
 	padding: 6px;
+	margin-top: 2%;
 }
 
 .nav-div2-link {
@@ -386,7 +437,6 @@ Logo
 #pubresources {
 	font-size: 1.1em;
 	margin-left: 12px;
-	margin-right: 24px;
 	font-family: 'Open Sans', sans-serif;
 	@media screen and (max-width: 1440px) {
 		font-size: 0.8em;
@@ -607,6 +657,36 @@ a {
 	width: 100%;
 	margin-top: 1%;
 	display: block;
+}
+
+#content1 #membership {
+	background-image: url("../assets/arrow-trans.png");
+	background-size: 90%;
+	background-repeat: no-repeat;
+}
+
+#content2 #spotlight {
+	background-image: url("../assets/arrow-trans.png");
+	background-size: 90%;
+	background-repeat: no-repeat;
+}
+
+#content3 #depot {
+	background-image: url("../assets/arrow-trans.png");
+	background-size: 90%;
+	background-repeat: no-repeat;
+}
+
+#content4 #insights {
+	background-image: url("../assets/arrow-trans.png");
+	background-size: 90%;
+	background-repeat: no-repeat;
+}
+
+#content5 #sog {
+	background-image: url("../assets/arrow-trans.png");
+	background-size: 90%;
+	background-repeat: no-repeat;
 }
 
 #footer-nav {

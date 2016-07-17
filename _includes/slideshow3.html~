@@ -1,4 +1,4 @@
-<div class="slideshow-content">
+<div class="slideshow-content" id="content3">
   <div class="slideshow">
 
     	<div class="row">
@@ -13,7 +13,7 @@
 		</div>
 		</div>
 
-		<div class="col-md-4" id="slideshow2-col">
+		<div class="col-md-4" id="slideshow3-col">
 		<img src="/assets/elevate.jpg" id="slideshow3-img" title="Partner Depot" />
 		</div>
 

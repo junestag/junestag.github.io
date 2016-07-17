@@ -2,7 +2,7 @@
 layout: home
 ---
 
-<div class="home">
+<div class="home" id="home1">
 
 	<div class="container-fluid">
 
@@ -270,7 +270,7 @@ layout: home
 					
 
 <div class="right-arrow">
-					<span class="view-all-whatever"><a href="">View All Live Events <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a></span>
+					<span class="view-all-whatever"><a href="">View All Videos <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a></span>
 					</div>
 					</div>
 
@@ -315,4 +315,4 @@ layout: home
 
 </div>
 
-<a href=""><img src="assets/in-banner.png" id="in-banner"/></a>
+<a href=""><img src="assets/bannerSIX.png" id="in-banner"/></a>

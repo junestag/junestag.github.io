@@ -1,4 +1,4 @@
-<div class="slideshow-content">
+<div class="slideshow-content" id="content4">
   <div class="slideshow">
 
     	<div class="row">
@@ -14,7 +14,7 @@
 		</div>
 
 		<div class="col-md-4" id="slideshow4-col">
-		<img src="/assets/elevate.jpg" id="slideshow4-img" title="GS Insights" />
+		<img src="/assets/donate_detective.png" id="slideshow4-img" title="GS Insights" />
 		</div>
 
 		<div class="col-md-5">
