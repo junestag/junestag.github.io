@@ -420,7 +420,7 @@ Logo
 	display: inline-block;
 	background-color: #c03c03;
 	padding: 6px;
-	margin-top: 2%;
+	margin-top: 3%;
 }
 
 .nav-div2-link {
