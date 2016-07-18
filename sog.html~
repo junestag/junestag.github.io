@@ -265,7 +265,7 @@ layout: home5
 
 					<div class="header">
 					<div id="alert-header" style="float:left;">
-					On-Demand Library
+					On-Demand Education
 					</div>
 					
 
@@ -315,4 +315,4 @@ layout: home5
 
 </div>
 
-<a href=""><img src="assets/in-banner.png" id="in-banner"/></a>
+<a href=""><img src="assets/bannerSEVEN.png" id="in-banner"/></a>
