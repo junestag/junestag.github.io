@@ -77,12 +77,20 @@ Logo
 
 #slideshow2-img {
 	display: inline-block;
-	margin-top: 15%;
+	height: 250px;
+	
 }
 
 #slideshow3-img {
 	display: inline-block;
+	margin-top: 15%;
+	margin-left: -5%;
+}
+
+#slideshow4-img {
+	display: inline-block;
 	margin-top: 20%;
+	margin-left: 15%;
 }
 
 #logo {
@@ -421,7 +429,7 @@ Logo
 	display: inline-block;
 	background-color: #c03c03;
 	padding: 6px;
-	margin-top: 1%;
+	//margin-top: 1.5%;
 }
 
 .nav-div2-link {

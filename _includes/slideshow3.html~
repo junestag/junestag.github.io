@@ -5,10 +5,10 @@
 
 		<div class="col-md-3">
 		<div id="slideshow-nav">
-		<span id="membership" class="slideshow-nav-element"><a href="index.html">Membership</a></span><br />
+		<span id="membership" class="slideshow-nav-element"><a href="index.html">Member Benefits</a></span><br />
+		<span class="slideshow-nav-element" id="summer-sale"><a href="summer-sale.html">Summer Sale</a></span><br />
 		<span class="slideshow-nav-element"><a href="spotlight.html">Webinar Spotlight</a></span><br />
 		<span class="slideshow-nav-element"><a href="depot.html">Partner Depot</a></span><br />
-		<span class="slideshow-nav-element"><a href="insights.html">GS Insights</a></span><br />
 		<span class="slideshow-nav-element" id="sog"><a href="sog.html">State of Grantseeking</a></span><br />
 		</div>
 		</div>
@@ -19,8 +19,8 @@
 
 		<div class="col-md-5">
 		<div id="slideshow-content">
-		<div id="slideshow-header">Are you Looking for Grantwriting Support in 2016?</div>
-		<div id="slideshow-text">Elevate works with effective and ambitious nonprofits of all sizes to make life easier for their leaders, improve their program outcomes, and build more sustainable organizations capable of doing the hard, day-to-day work of meaningful social change. </div>
+		<div id="slideshow-header">The Invisible Yellow Line: Nonprofit Governance</div>
+		<div id="slideshow-text">Who 'owns' your nonprofit? The line defining the governance responsibility of board and staff is often hard to see. This fast-paced webinar will help to clarify that line using a football metaphor that everyone can understand. You've seen that yellow line that appears on the screen when you watch a football game.</div>
 		<p id="learnmore"><a href="">Learn More</a></p>
 		</div>
 		</div>

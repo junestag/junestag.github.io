@@ -5,10 +5,10 @@
 
 		<div class="col-md-3">
 		<div id="slideshow-nav">
-		<span id="membership" class="slideshow-nav-element"><a href="index.html">Membership</a></span><br />
+		<span id="membership" class="slideshow-nav-element"><a href="index.html">Member Benefits</a></span><br />
+		<span class="slideshow-nav-element" id="summer-sale"><a href="summer-sale.html">Summer Sale</a></span><br />
 		<span class="slideshow-nav-element"><a href="spotlight.html">Webinar Spotlight</a></span><br />
 		<span class="slideshow-nav-element"><a href="depot.html">Partner Depot</a></span><br />
-		<span class="slideshow-nav-element"><a href="insights.html">GS Insights</a></span><br />
 		<span class="slideshow-nav-element" id="sog"><a href="sog.html">State of Grantseeking</a></span><br />
 		</div>
 		</div>
@@ -19,10 +19,8 @@
 
 		<div class="col-md-5">
 		<div id="slideshow-content">
-		<div id="slideshow-header">Where Should you Donate?</div>
-		<div id="slideshow-text">Recently, the misdeeds of some foundations have been making the news. Jared Fogle, who became a Subway spokesman after losing weight eating their sandwiches, was all over the news after his home was raided by the FBI and he was charged with possession of child pornography.
-
-</div>
+		<div id="slideshow-header">Are you Looking for Grantwriting Support in 2016?</div>
+		<div id="slideshow-text">Elevate works with effective and ambitious nonprofits of all sizes to make life easier for their leaders, improve their program outcomes, and build more sustainable organizations capable of doing the hard, day-to-day work of meaningful social change.</div>
 		<p id="learnmore"><a href="">Learn More</a></p>
 		</div>
 		</div>
