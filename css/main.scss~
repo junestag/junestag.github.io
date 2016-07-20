@@ -84,7 +84,7 @@ Logo
 #slideshow3-img {
 	display: inline-block;
 	margin-top: 15%;
-	margin-left: -5%;
+	margin-left: -15%;
 }
 
 #slideshow4-img {
@@ -132,7 +132,7 @@ Logo
 	}
 }
 
-#content2 #spotlight {
+#content2 #summer-sale {
 	a {
 		color: white;	
 	}
@@ -674,19 +674,19 @@ a {
 	background-repeat: no-repeat;
 }
 
-#content2 #spotlight {
+#content2 #summer-sale {
 	background-image: url("../assets/arrow-trans.png");
 	background-size: 90%;
 	background-repeat: no-repeat;
 }
 
-#content3 #depot {
+#content3 #spotlight {
 	background-image: url("../assets/arrow-trans.png");
 	background-size: 90%;
 	background-repeat: no-repeat;
 }
 
-#content4 #insights {
+#content4 #depot {
 	background-image: url("../assets/arrow-trans.png");
 	background-size: 90%;
 	background-repeat: no-repeat;
