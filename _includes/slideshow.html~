@@ -8,7 +8,7 @@
 		<span id="membership" class="slideshow-nav-element"><a href="index.html">Member Benefits</a></span><br />
 		<span class="slideshow-nav-element" id="summer-sale"><a href="summer-sale.html">Summer Sale</a></span><br />
 		<span class="slideshow-nav-element"><a href="spotlight.html">Webinar Spotlight</a></span><br />
-		<span class="slideshow-nav-element"><a href="depot.html">Partner Depot</a></span><br />
+		<span class="slideshow-nav-element"><a href="depot.html">Partner Promo</a></span><br />
 		<span class="slideshow-nav-element" id="sog"><a href="sog.html">State of Grantseeking</a></span><br />
 		</div>
 		</div>
@@ -19,8 +19,13 @@
 
 		<div class="col-md-5">
 		<div id="slideshow-content">
-		<div id="slideshow-header">Summer Sizzling Sale</div>
-		<div id="slideshow-text">Now is the time to make hay while the sun shines by getting your share of grant awards! $149 for one year Membership, $249 for two years. Includes free webinar: Building a Stellar Grantseeking Team</div>
+		<div id="slideshow-header">Benefits of Membership</div>
+		<div id="slideshow-text">Get the tools and information you need to secure your funding this year and beyond!<br />
+- FIND the right grantmakers with our searchable listings.<br />
+- BUILD a strong grant strategy with our tools.<br />
+- WRITE winning grant proposals with our tutorials.<br />
+Join GrantStation today to power your projects!
+</div>
 		<p id="learnmore"><a href="">Learn More</a></p>
 		</div>
 		</div>

@@ -3,27 +3,27 @@
 	<div class="headerwrapper">
 
 		<div class="row">
-			<div class="col-md-4" id="logo-col">
+			<div class="col-md-3" id="logo-col">
 				<div id="logo-div">
 				<a class="site-title" href="{{ site.baseurl }}/"><img src="/assets/GrantStation_slogan_trans.png" id="logo" title="GrantStation.com" /></a>
 				</div>
 			</div>
 
-			<div class="col-md-8">
+			<div class="col-md-9">
 				<div class="row">
 
 					<div class="col-md-12" id="top-nav-div">
 <div class="row">
 <div class="col-md-10">
 					<div id="tagline">
-			   		<span id="tagline-intro">"Helping grantseekers connect with</span> <span id="tagline-ending"> the right grantmakers since 1999."</span>
+			   		<span id="tagline-intro">"Helping our members connect with</span> <span id="tagline-ending"> the right grantmakers since 1999."</span>
 			  		</div>
 </div>
-<div class="col-md-2">
+<div class="col-md-2" id="nav-div-col">
 						<div id="nav-div">
 								<a href="">About</a><br />
 								<a href="">Contact</a><br />
-								<a href="">Help</a><br >
+								<a href="">Help</a><br />
 								<a href="">My Cart</a><br />
 								<a href="">Site Search</a>
 						</div>
@@ -34,6 +34,7 @@
 					</div>
  
 		      		<div class="row" id="sub-nav-row">
+<div class="col-md-12" id="sub-nav2-col">
 		       			<div id="nav-div2">
 					<div id="sub-nav-div2">
 					<span class="nav-div2-link" id="join"><a href="" title="Get a membership to GrantStation.com">JOIN</a></span>
@@ -41,7 +42,12 @@
 					<span class="nav-div2-link" id="build"><a href="" title="Build your grantseeking strategy (members only)">BUILD STRATEGY</a></span>
 					<span class="nav-div2-link" id="write"><a href="" title="Write your grantseeking proposals (members only)">WRITE PROPOSALS</a></span>
 					</div>
-					<span id="pubresources"><a href="" title="Public resources">PUBLIC RESOURCES</a></span>
+<div id="comm-resources">					
+<span id="pubresources"><a href="" title="Community resources">COMMUNITY RESOURCES</a></span>
+</div>
+<div id="part-programs-div">
+<span id="partprograms"><a href="" title="Partner Programs">PARTNER PROGRAMS</a></span>
+</div>
 		       			</div>
 		      		</div>
 

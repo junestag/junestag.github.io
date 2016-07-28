@@ -1,10 +1,12 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+
 @charset "utf-8";
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: Arial, sans-serif;
+$content-font-family: 'Open Sans', sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -65,6 +67,14 @@ Logo
 	//height: 150px;
 }
 
+#login {
+	font-family: $base-font-family;
+}
+
+#learnmore a {
+	font-family: $content-font-family;
+}
+
 #slideshow-img {
 	//max-width: 100%;
 	//height: auto;
@@ -123,6 +133,42 @@ Logo
 	}
 }
 
+#comm-resources {
+	display: inline-block;
+	background-color: white;
+	padding-top: 14px;
+	padding-bottom: 12px;
+	padding-right: 14px;
+	padding-left: 14px;
+	margin-top: -1px;
+	border-top: 1px solid #c03c03;
+	border-bottom: 1px solid #c03c03;
+	border-left: 1px solid #c03c03;
+	border-right: 1px solid #c03c03;
+	@media screen and (max-width: 1440px) {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
+
+#part-programs-div {
+	display: inline-block;
+	background-color: white;
+	padding-top: 14px;
+	padding-bottom: 12px;
+	padding-right: 6px;
+	padding-left: 6px;
+	margin-left: -4px;
+	margin-top: -1px;
+	border-right: 1px solid #c03c03;
+	border-top: 1px solid #c03c03;
+	border-bottom: 1px solid #c03c03;
+	@media screen and (max-width: 1440px) {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
+
 #content1 #membership {
 	a {
 		color: white;	
@@ -141,7 +187,7 @@ Logo
 	}
 }
 
-#content3 #depot {
+#content3 #spotlight {
 	a {
 		color: white;	
 	}
@@ -150,7 +196,7 @@ Logo
 	}
 }
 
-#content4 #insights {
+#content4 #depot {
 	a {
 		color: white;	
 	}
@@ -176,6 +222,7 @@ Logo
 #slideshow-header {
 	font-size: 1.5em;
 	padding-bottom: 12px;
+	font-family: $base-font-family;
 	@media screen and (max-width: 1440px) {
 		font-size: 1.2em;
 	}
@@ -183,6 +230,7 @@ Logo
 
 #slideshow-text {
 	padding-bottom: 12px;
+	font-family: $base-font-family;
 	@media screen and (max-width: 1440px) {
 		font-size: 0.9em;
 	}
@@ -199,10 +247,16 @@ Logo
 #gsinsights,
 #talk2020,
 #memberlogin,
-#online-education,
 #free-newsletters {
 	background-color: white;
 	padding-bottom: 12px;
+	border: 1px solid #e1e1e1;
+	margin-top: 12px;
+}
+
+#online-education {
+	background-color: white;
+	padding-bottom: 0px;
 	border: 1px solid #e1e1e1;
 	margin-top: 12px;
 }
@@ -215,7 +269,7 @@ Logo
 	color: #003863;
 	text-transform: uppercase;
 	font-size: 1.125em;
-	font-family: 'Open Sans', sans-serif;
+	font-family: $content-font-family;
 	font-weight: 600;
 	border-bottom: 1px solid #e1e1e1;
 	background-color: #EBEBEB;
@@ -235,6 +289,7 @@ Logo
 	padding-left: 6px;
 	padding-right: 6px;
 	display: block;
+	font-family: $base-font-family;
 	a {
 	color: #c03c03;
 	text-decoration: none;
@@ -314,9 +369,6 @@ Logo
 	width: 250px;
 	padding-left: 18px;
 	margin-top: 40%;
-	@media screen and (max-width: 1440px) {
-		
-	}
 }
 
 // Div around username in login area
@@ -341,22 +393,30 @@ Logo
 .date-sub {
 	margin-left: 12%;
 	margin-top: 20%;
+	font-family: $base-font-family;
+}
+
+.subscribe-button {
+	font-family: $base-font-family;
 }
 
 // Alternative date placement - used by Children & Families
 .date-sub-2 {
 	margin-left: 12%;
+	font-family: $base-font-family;
 	margin-top: 10%;
 }
 
 // Alternative date placement - used by the Invisible Yellow Line
 .date-sub-3 {
+	font-family: $base-font-family;
 	margin-left: 12%;
 	margin-top: 27.5%;
 }
 
 // Alternative date placement - used by 'Elevate'
 .date-sub-4 {
+	font-family: $base-font-family;
 	margin-left: 12%;
 	margin-top: 15%;
 }
@@ -381,11 +441,13 @@ Logo
 	font-size: 1.3em;
 	width: 100%;
 	text-align: center;
+	font-family: $base-font-family;
 }
 
 .nodetext {
 	margin-left: 5%;
 	margin-right: 5%;
+	font-family: $base-font-family;
 }
 
 #hamburger {
@@ -398,6 +460,7 @@ Logo
 	font-size: 1.3em;
 	margin-top: 3%;
 	height: 30px;
+	font-family: $base-font-family;
 	@media screen and (max-width: 1440px) {
 		font-size: 1em;
 	}
@@ -405,6 +468,11 @@ Logo
 
 #sub-nav-row {
 	text-align: right;
+	padding-right: 0px;
+}
+
+#sub-nav2-col {
+	padding-right: 0px;
 }
 
 #nav-div2 {
@@ -423,6 +491,14 @@ Logo
 	//margin-top: 18%;
 	text-align: right;
 	font-size: 0.9em;
+	font-family: $base-font-family;
+	@media screen and (max-width: 1440px) {
+		font-size: 0.8em;
+	}
+}
+
+#nav-div-col {
+	padding-right: 20px;
 }
 
 #sub-nav-div2 {
@@ -430,25 +506,35 @@ Logo
 	background-color: #c03c03;
 	padding: 6px;
 	//margin-top: 1.5%;
+	margin-right: -4px;
 }
 
 .nav-div2-link {
-	margin-right: 24px;
+	margin-right: 6px;
 	display: inline-block;
-	margin-left: 12px;
-	font-size: 1.1em;
+	margin-left: 6px;
+	font-size: 1em;
 	@media screen and (max-width: 1440px) {
-		font-size: 0.8em;
+		font-size: 0.9em;
 	}
 	font-family: 'Open Sans', sans-serif;
 }
 
 #pubresources {
-	font-size: 1.1em;
-	margin-left: 12px;
+	font-size: 1em;
+	margin-left: 0px;
 	font-family: 'Open Sans', sans-serif;
 	@media screen and (max-width: 1440px) {
-		font-size: 0.8em;
+		font-size: 0.9em;
+	}
+}
+
+#partprograms {
+	font-size: 1em;
+	margin-left: 0px;
+	font-family: 'Open Sans', sans-serif;
+	@media screen and (max-width: 1440px) {
+		font-size: 0.9em;
 	}
 }
 
@@ -461,7 +547,6 @@ $new-orange: lighten(#c03c03, 18);
 	padding-top: 6px;
 	padding-bottom: 6px;
 	display: inline-block;
-	margin-right: 24px;
 	font-size: 1.1em;
 	@media screen and (max-width: 1440px) {
 		font-size: 0.8em;
@@ -484,7 +569,8 @@ $new-orange: lighten(#c03c03, 18);
 	color: white;
 }
 
-#pubresources {
+#pubresources,
+#partprograms {
 	a {
 		color: #002A4A;
 		text-decoration: none;
@@ -524,7 +610,7 @@ a {
 #join a:visited {
 	color: #c03c03;
 	font-weight: bold;
-	font-size: 1.3em;
+	font-size: 1.1em;
 	text-decoration: none;
 }
 
@@ -548,7 +634,7 @@ a {
 }
 
 #username {
-	font-family: 'Open Sans', sans-serif;
+	font-family: $content-font-family;
 	text-align: left;
 	margin-top: 6px;
 	display: inline-block;
@@ -557,7 +643,7 @@ a {
 }
 
 #password {
-	font-family: 'Open Sans', sans-serif;
+	font-family: $content-font-family;
 	text-align: left;
 	margin-top: 6px;
 	display: inline-block;
@@ -565,7 +651,7 @@ a {
 }
 
 #forgot-your-login {
-	font-family: 'Open Sans', sans-serif;
+	font-family: $base-font-family;
 	text-align: left;
 	font-size: 0.8em;
 	margin-top: 6px;
@@ -581,7 +667,7 @@ a {
 
 .webinar-title {
 	display: inline-block;
-	font-family: 'Open Sans', sans-serif;
+	font-family: $base-font-family;
 	width: 60%;
 	font-size: 1.2em;
 	margin-left: 24px;
@@ -597,21 +683,60 @@ a {
 
 .ondemand-title {
 	display: inline-block;
-	font-family: 'Open Sans', sans-serif;
+	font-family: $base-font-family;
 	margin-right: 24px;
+	width: 60%;
 	font-size: 1.2em;
 	margin-left: 24px;
 	margin-top: 6px;
 }
 
+.ondemand-info {
+	display: inline-block;
+	font-family: $base-font-family;
+	width: 10%;
+	text-align: right;
+	padding-right: 48px;
+	margin-top: 6px;
+}
+
+.ondemand-info2 {
+	display: inline-block;
+	font-family: $base-font-family;
+	width: 10%;
+	text-align: right;
+	padding-right: 12px;
+	margin-top: 6px;
+}
+
 .webinar-date {
 	display: inline-block;
-	font-family: 'Open Sans', sans-serif;
+	font-family: $base-font-family;
 	width: 20%;
 	text-align: right;
 	margin-right: 24px;
 	float: right;
 	margin-top: 6px;
+}
+
+#woe-vll {
+	font-family: $base-font-family;
+	width: 100%;
+	//padding-left: 24px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	background-color: white;
+	text-align: center;
+}
+
+#want-ode {
+	font-size: 1.4em;
+	color: #c03c03;
+}
+
+#check-vll {
+	padding-bottom: 0px;
+	margin-bottom: 6px;
 }
 
 #insider-logo {
@@ -624,12 +749,12 @@ a {
 	text-align: left;
 	padding-left: 24px;
 	padding-right: 24px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: $base-font-family;
 }
 
 #news-checkbox {
 	text-align: left;
-	font-family: 'Open Sans', sans-serif;
+	font-family: $base-font-family;
 	padding-left: 12px;
 	padding-right: 12px;
 	font-size: 1em;
@@ -649,7 +774,7 @@ a {
 
 .view-most-recent {
 	text-align: left;
-	font-family: 'Open Sans', sans-serif;
+	font-family: $base-font-family;
 	padding-left: 54px;
 	padding-right: 54px;
 	font-size: 1em;
@@ -699,14 +824,14 @@ a {
 }
 
 #footer-nav {
-	font-family: 'Open Sans', sans-serif;
+	font-family: $base-font-family;
 	padding-top: 18px;
 	padding-bottom: 6px;
 }
 
 #connectwithus {
 	font-size: 1.4em;
-	font-family: 'Open Sans', sans-serif;
+	font-family: $base-font-family;
 	padding-top: 6px;
 	padding-bottom: 6px;
 }
@@ -729,5 +854,5 @@ a {
 #copyright {
 	padding-top: 6px;
 	padding-bottom: 18px;	
-	font-family: 'Open Sans', sans-serif;
+	font-family: $base-font-family;
 }
