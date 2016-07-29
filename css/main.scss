@@ -144,7 +144,49 @@ Logo
 	border-top: 1px solid #c03c03;
 	border-bottom: 1px solid #c03c03;
 	border-left: 1px solid #c03c03;
+	//border-right: 1px solid #c03c03;
+	@media screen and (max-width: 1440px) {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
+
+.top-top-nav-link {
+	margin-right: 24px;
+}
+
+#comm-resources2 {
+	display: inline-block;
+	background-color: white;
+	padding-top: 0px;
+	padding-bottom: 18px;
+	padding-right: 6px;
+	padding-left: 6px;
+	margin-top: -1px;
+	text-align: center;
+	border-top: 1px solid #c03c03;
+	border-bottom: 1px solid #c03c03;
+	border-left: 1px solid #c03c03;
 	border-right: 1px solid #c03c03;
+	@media screen and (max-width: 1440px) {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
+
+#comm-resources3 {
+	display: inline-block;
+	background-color: white;
+	padding-top: 14px;
+	padding-bottom: 12px;
+	padding-right: 12px;
+	padding-left: 12px;
+	margin-top: -1px;
+	border-top: 1px solid #c03c03;
+	border-bottom: 1px solid #c03c03;
+	border-left: 1px solid #c03c03;
+	border-right: 1px solid #c03c03;
+	//border-right: 1px solid #c03c03;
 	@media screen and (max-width: 1440px) {
 		padding-top: 10px;
 		padding-bottom: 10px;
@@ -457,9 +499,11 @@ Logo
 #tagline {
 	font-style: italic;
 	text-align: right;
-	font-size: 1.3em;
+	font-size: 1.2em;
 	margin-top: 3%;
+	margin-bottom: 1%;
 	height: 30px;
+	text-align: center;
 	font-family: $base-font-family;
 	@media screen and (max-width: 1440px) {
 		font-size: 1em;
@@ -509,8 +553,30 @@ Logo
 	margin-right: -4px;
 }
 
+#sub-nav-div2-alt {
+	display: inline-block;
+	background-color: #c03c03;
+	padding-top: 24px;
+	padding-bottom: 12px;
+	padding-right: 6px;
+	padding-left: 6px;
+	//margin-top: 1.5%;
+	margin-right: -4px;
+}
+
 .nav-div2-link {
 	margin-right: 6px;
+	display: inline-block;
+	margin-left: 6px;
+	font-size: 1em;
+	@media screen and (max-width: 1440px) {
+		font-size: 0.9em;
+	}
+	font-family: 'Open Sans', sans-serif;
+}
+
+.nav-div2-link3 {
+	margin-right: 24px;
 	display: inline-block;
 	margin-left: 6px;
 	font-size: 1em;
@@ -523,6 +589,17 @@ Logo
 #pubresources {
 	font-size: 1em;
 	margin-left: 0px;
+	font-family: 'Open Sans', sans-serif;
+	@media screen and (max-width: 1440px) {
+		font-size: 0.9em;
+	}
+}
+
+#pubresources2 {
+	font-size: 1em;
+	margin-left: 0px;
+	margin-top: 12px;
+	display: inline-block;
 	font-family: 'Open Sans', sans-serif;
 	@media screen and (max-width: 1440px) {
 		font-size: 0.9em;
@@ -571,6 +648,21 @@ $new-orange: lighten(#c03c03, 18);
 
 #pubresources,
 #partprograms {
+	a {
+		color: #002A4A;
+		text-decoration: none;
+	}
+	a: visited {
+		color: #002A4A;
+		text-decoration: none;
+	}
+	a: hover {
+		text-decoration: none;
+	}
+}
+
+#pubresources2,
+#partprograms2 {
 	a {
 		color: #002A4A;
 		text-decoration: none;
