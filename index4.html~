@@ -1,5 +1,5 @@
 ---
-layout: homealt1
+layout: homealt4
 ---
 
 <div class="home" id="home1">
@@ -14,79 +14,17 @@ layout: homealt1
 
 					<div class="header">
 					<div id="alert-header" style="float:left;">
-					National Funding Alert
-					</div>
-					<div class="right-arrow">
-					<span class="view-all-whatever"><a href="">View All Alerts <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a></span>
+					Why you should join GrantStation
 					</div>
 					</div>
 
 					<div class="row" id="nat-funding-alert">
 						<div class="box-text">
-							<div class="col-sm-4">
-							<div class="date-sub">June 16, 2016</div>
+							<div class="nodetext2">JOIN GrantStation and find grantmakers RIGHT NOW that will fund your organization or project. 
 							</div>
-							<div class="col-sm-8">
-							<div class="box-image-sub" id="rwj-img">
-								<img src="assets/rwjflogo2.jpg" title="Robert Wood Johnson Foundation" />
-							</div>
-							</div>
-							<div class="nodetitle-sub"><a href="">Costs of Care: Getting the Patient-Provider Conversation Right</a></div>
-							<div class="nodetext">The Robert Wood Johnson Foundation is issuing two calls for proposals for the Costs of Care: Getting the Patient-Provider Conversation Right initiative to support cost-of-care conversations in clinical encounters across different vulnerable patient populations, care settings, and geographic areas. Click above to learn more about the funding guidelines and application process.</div>
+							<div id="map-image-align"><img src="/assets/map-of-usa33.png" id="map-image"/></div>
+							<div class="nodetext3">This map shows you a composite of all the grantmakers we have in our database.</div>
 						</div>		
-					</div>
-
-				</div>
-
-				<div id="regfundalert">
-
-					<div class="header">
-					<div id="alert-header" style="float:left;">
-					Regional Funding Alert
-					</div>
-<div class="right-arrow">
-					<span class="view-all-whatever"><a href="">View All Alerts <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a></span>
-					</div>
-					</div>
-
-					<div class="row">
-							<div class="col-sm-4">
-							<div class="date-sub">June 16, 2016</div>
-							</div>
-							<div class="col-sm-8">
-							<div class="box-image-sub" id="osf-img">
-								<img src="assets/osf_logo_rgb.jpg.jpeg" title="Open Society Foundations" />
-							</div>
-</div>
-								<div class="nodetitle-sub"><a href="">Civil Society Fund for Roma Integration 2020</a></div>
-								<div class="nodetext">The Open Society Foundations work to build vibrant and tolerant democracies whose governments are accountable and open to the participation of all people. The Civil Society Fund for Roma Integration 2020 provides support to civil society networks and coalitions in selected countries to contribute to the fulfillment of the commitments made by national governments within Roma Integration 2020. Click above to learn more about the funding guidelines.</div>
-					</div>
-
-				</div>
-
-				<div id="fedfundalert">
-
-					<div class="header">
-					<div id="alert-header" style="float:left;">
-					Federal Funding Alert
-					</div>
-<div class="right-arrow">
-					<span class="view-all-whatever"><a href="">View All Alerts <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a></span>
-					</div>
-					</div>
-
-					<div class="row">
-							<div class="col-sm-4">
-							<div class="date-sub-2">June 16, 2016</div>
-							</div>
-							<div class="col-sm-8">
-							<div class="box-image-sub" id="afcf-img">
-								<img src="assets/children-families.png" title="Open Society Foundations" />
-							</div>
-</div>
-								<div class="nodetitle-sub"><a href="">Program Helps Human Trafficking Victims</a></div>
-
-								<div class="nodetext">The Domestic Victims of Human Trafficking Program supports projects that will develop, expand, and strengthen comprehensive services for victims. Letters of intent are due July 22, 2016. The application deadline is August 24, 2016.</div>
 					</div>
 
 				</div>
@@ -168,6 +106,13 @@ layout: homealt1
 						</form>
 					</div>
 
+				</div>
+
+				<div id="partner-promotion-block">
+<div class="header">Partner Promotion</div>
+<div id="are-you-looking"><a href="">Are you Looking for Grantwriting Support in 2016?</a></div>
+<img src="/assets/elevate.jpg" id="elevate-promo"/>
+<div id="partner-description3">Elevate works with effective and ambitious nonprofits of all sizes to make life easier for their leaders, improve their program outcomes, and build more sustainable organizations capable of doing the hard, day-to-day work of meaningful social change.</div>
 				</div>
 
 				<div id="online-education">
@@ -265,7 +210,7 @@ layout: homealt1
 
 				</div>
 
-<div id="online-education">
+<div id="online-education2">
 
 					<div class="header">
 					<div id="alert-header" style="float:left;">

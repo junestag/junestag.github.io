@@ -3,13 +3,13 @@
 	<div class="headerwrapper">
 
 		<div class="row">
-			<div class="col-md-3" id="logo-col">
+			<div class="col-md-4" id="logo-col">
 				<div id="logo-div">
 				<a class="site-title" href="{{ site.baseurl }}/"><img src="/assets/GrantStation_slogan_trans.png" id="logo" title="GrantStation.com" /></a>
 				</div>
 			</div>
 
-			<div class="col-md-9">
+			<div class="col-md-8">
 				<div class="row">
 
 					<div class="col-md-12" id="top-nav-div">
@@ -21,6 +21,7 @@
 </div>
 <div class="col-md-2" id="nav-div-col">
 						<div id="nav-div">
+								<a href="">Home</a><br />
 								<a href="">About</a><br />
 								<a href="">Contact</a><br />
 								<a href="">Help</a><br />

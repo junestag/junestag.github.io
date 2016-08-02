@@ -191,7 +191,13 @@
 	padding-top: 12px;
 	padding-bottom: 12px;
 	margin-top: 24px;
-	font-family: 'Opens Sans', sans-serif;
+	font-family: $base-font-family;
+}
+
+#slideshow-content2 {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	font-family: $base-font-family;
 }
 
 #learnmore {

@@ -256,6 +256,15 @@ Logo
 	}
 }
 
+#content6 #alerts {
+	a {
+		color: white;	
+	}
+	a:visited {
+		color: white;	
+	}
+}
+
 #membership {
 	display: inline-block;
 	color: white;
@@ -263,6 +272,15 @@ Logo
 
 #slideshow-header {
 	font-size: 1.5em;
+	padding-bottom: 12px;
+	font-family: $base-font-family;
+	@media screen and (max-width: 1440px) {
+		font-size: 1.2em;
+	}
+}
+
+#slideshow-header2 {
+	font-size: 2em;
 	padding-bottom: 12px;
 	font-family: $base-font-family;
 	@media screen and (max-width: 1440px) {
@@ -278,6 +296,11 @@ Logo
 	}
 }
 
+#content6 #slideshow-text a {
+	color: white;
+	text-decoration: underline;
+}
+
 #top-nav-div {
 	padding-right: 0px;
 }
@@ -289,11 +312,30 @@ Logo
 #gsinsights,
 #talk2020,
 #memberlogin,
-#free-newsletters {
+#free-newsletters,
+#partner-promotion-block {
 	background-color: white;
 	padding-bottom: 12px;
 	border: 1px solid #e1e1e1;
 	margin-top: 12px;
+}
+
+#partner-promotion-block {
+	text-align: center;
+}
+
+#partner-promotion-block .header {
+	text-align: left;
+}
+
+#partner-description3 {
+	text-align: left;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+#elevate-promo {
+	display: inline-block;
 }
 
 #online-education {
@@ -301,6 +343,20 @@ Logo
 	padding-bottom: 0px;
 	border: 1px solid #e1e1e1;
 	margin-top: 12px;
+}
+
+#home1 #online-education2 {
+	margin-bottom: 200px;
+	background-color: #b3c9ec;
+	padding-bottom: 0px;
+	border: 1px solid #e1e1e1;
+	margin-top: 12px;
+}
+
+#online-ed-desc {
+	margin-top: 2%;
+	margin-left: 2%;
+	margin-right: 2%;
 }
 
 #online-education {
@@ -490,6 +546,33 @@ Logo
 	margin-left: 5%;
 	margin-right: 5%;
 	font-family: $base-font-family;
+}
+
+.nodetext2 {
+	margin-left: 5%;
+	margin-right: 5%;
+	font-family: $base-font-family;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	font-size: 2em;
+}
+
+.nodetext3 {
+	margin-left: 5%;
+	margin-right: 5%;
+	font-family: $base-font-family;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+#map-image {
+	margin-top: 1%;
+	display: inline-block;
+	margin-bottom: 1%;
+}
+
+#map-image-align {
+	text-align: center;
 }
 
 #hamburger {
@@ -752,6 +835,14 @@ a {
 	padding-bottom: 6px;
 }
 
+#are-you-looking {
+	font-size: 1.2em;
+	text-align: center;
+	padding-right: 2%;
+	padding-left: 2%;
+	margin-top: 2%;
+}
+
 .webinar {
 	margin-top: 12px;
 	margin-bottom: 12px;
@@ -910,6 +1001,12 @@ a {
 }
 
 #content5 #sog {
+	background-image: url("../assets/arrow-trans.png");
+	background-size: 90%;
+	background-repeat: no-repeat;
+}
+
+#content6 #alerts {
 	background-image: url("../assets/arrow-trans.png");
 	background-size: 90%;
 	background-repeat: no-repeat;
