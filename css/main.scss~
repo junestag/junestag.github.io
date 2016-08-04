@@ -416,11 +416,23 @@ Logo
   }
 }
 
+#member-benefits {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  text-align: center;
+}
+
+.webinar-date3 {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 1%;
+}
+
 .write-header {
   font-size: 2.4em;
   margin-left: -65px;
   @media all and (max-width: 1440px) {
-    margin-left: -40px;
+    margin-left: -50px;
     font-size: 2em;
   }
 }
@@ -430,7 +442,7 @@ Logo
   margin-left: -65px;
   width: 120px;
   @media all and (max-width: 1440px) {
-    margin-left: -40px;
+    margin-left: -50px;
     width: 90px;
   }
 }
@@ -665,7 +677,67 @@ Logo
 }
 
 // arrow next to 'view all' in content area
-.right-arrow {
+#right-arrow1 {
+	float:right;
+	:hover {
+		background-color: #d3d3d3;
+	}
+	.fa {
+		color: #c03c03;
+	}
+}
+
+#right-arrow2 {
+	float:right;
+	:hover {
+		background-color: #d3d3d3;
+	}
+	.fa {
+		color: #c03c03;
+	}
+}
+
+#right-arrow3 {
+	float:right;
+	:hover {
+		background-color: #d3d3d3;
+	}
+	.fa {
+		color: #c03c03;
+	}
+}
+
+#right-arrow4 {
+	float:right;
+	:hover {
+		background-color: #d3d3d3;
+	}
+	.fa {
+		color: #c03c03;
+	}
+}
+
+#right-arrow5 {
+	float:right;
+	:hover {
+		background-color: #d3d3d3;
+	}
+	.fa {
+		color: #c03c03;
+	}
+}
+
+#right-arrow6 {
+	float:right;
+	:hover {
+		background-color: #d3d3d3;
+	}
+	.fa {
+		color: #c03c03;
+	}
+}
+
+#right-arrow7 {
 	float:right;
 	:hover {
 		background-color: #d3d3d3;
@@ -693,19 +765,18 @@ Logo
 .box-image-sub {
 	padding-top: 15px;
 	padding-bottom: 25px;
-	text-align: left;
+	text-align: center;
 }
 
 // Alternative styling for Invisible Yellow Line
 .box-image-sub-2 {
-	margin-left: 7.5%;
 	padding-top: 15px;
-	padding-bottom: 25px;
+	text-align: center;
 }
 
 // Alternative styling for 'Elevate'
 .box-image-sub-3 {
-	margin-left: -5%;
+	text-align: center;
 	padding-top: 15px;
 	padding-bottom: 25px;
 }
@@ -1088,6 +1159,15 @@ a {
 	display: inline-block;
 	margin-bottom: 6px;
 	padding-top: 6px;
+}
+
+#content-date-top {
+  float: left;
+  font-size: 0.8em;
+  font-style: italic;
+  color: black;
+  text-transform: none;
+  margin-top: 1%;
 }
 
 #password {
