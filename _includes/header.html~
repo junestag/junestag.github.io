@@ -14,22 +14,21 @@
 
 					<div class="col-md-12" id="top-nav-div">
 <div class="row">
-<div class="col-md-10">
-					<div id="tagline">
-			   		<span id="tagline-intro">"Helping our members connect with</span> <span id="tagline-ending"> the right grantmakers since 1999."</span>
-			  		</div>
-</div>
-<div class="col-md-2" id="nav-div-col">
+<div class="col-md-12" id="nav-div-col">
 						<div id="nav-div">
-								<a href="">Home</a><br />
-								<a href="">About</a><br />
-								<a href="">Contact</a><br />
-								<a href="">Help</a><br />
-								<a href="">My Cart</a><br />
-								<a href="">Site Search</a>
+								<span class="top-top-nav-link"><a href="">Home</a></span>
+								<span class="top-top-nav-link"><a href="">About</a></span>
+								<span class="top-top-nav-link"><a href="">Contact</a></span>
+								<span class="top-top-nav-link"><a href="">Help</a></span>
+								<span class="top-top-nav-link"><a href="">My Cart</a></span>
 						</div>
 </div>
 </div>
+<div class="row">
+<div class="col-md-12">
+					<div id="tagline">
+			   		<span id="tagline-intro">"Helping our members connect with</span> <span id="tagline-ending"> the right grantmakers since 1999."</span>
+			  		</div>
 			  		</div>
 
 					</div>
@@ -44,7 +43,7 @@
 					<span class="nav-div2-link" id="write"><a href="" title="Write your grantseeking proposals (members only)">WRITE PROPOSALS</a></span>
 					</div>
 <div id="comm-resources">					
-<span id="pubresources"><a href="" title="Community resources">COMMUNITY RESOURCES</a></span>
+<span id="pubresources"><a href="" title="Community resources">COMMUNITY RESOURCES</a>&nbsp;&nbsp;&nbsp;<span id="divider">|</span></span>
 </div>
 <div id="part-programs-div">
 <span id="partprograms"><a href="" title="Partner Programs">PARTNER PROGRAMS</a></span>

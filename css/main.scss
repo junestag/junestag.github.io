@@ -136,8 +136,8 @@ Logo
 #comm-resources {
 	display: inline-block;
 	background-color: white;
-	padding-top: 14px;
-	padding-bottom: 12px;
+	padding-top: 13px;
+	padding-bottom: 11px;
 	padding-right: 6px;
 	padding-left: 6px;
 	margin-top: -1px;
@@ -149,6 +149,45 @@ Logo
 		padding-top: 10px;
 		padding-bottom: 10px;
 	}
+}
+
+#video-title {
+	padding-left: 10%;
+	padding-top: 2%;
+	font-size: 1.4em;
+}
+
+.video-title {
+	padding-left: 15%;
+	padding-top: 2%;
+	font-size: 1em;
+	display: block;
+	padding-bottom: 2%;
+	font-size: 1.2em;
+}
+
+#video-length {
+	padding-top: 2%;
+	font-size: 1.4em;
+}
+
+.video-length {
+	padding-top: 20%;
+	display: block;
+	text-align: center;
+}
+
+#video-price {
+	padding-top: 2%;
+	padding-right: 2%;
+	padding-left: 0px;
+	font-size: 1.4em;
+}
+
+.video-price {
+	text-align: left;
+	padding-top: 20%;
+	display: block;
 }
 
 .top-top-nav-link {
@@ -196,8 +235,8 @@ Logo
 #part-programs-div {
 	display: inline-block;
 	background-color: white;
-	padding-top: 14px;
-	padding-bottom: 12px;
+	padding-top: 13px;
+	padding-bottom: 11px;
 	padding-right: 6px;
 	padding-left: 6px;
 	margin-left: -4px;
@@ -265,9 +304,236 @@ Logo
 	}
 }
 
+#divider {
+	color: #c03c03;
+}
+
 #membership {
 	display: inline-block;
 	color: white;
+}
+
+#find-circle {
+    background: #003863;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-left: 10%;
+    float: left;
+    display: block;
+}
+
+#find-circle p {
+	color: white;
+	text-align: center;
+	padding-top: 20%;
+	font-size: 1.8em;
+}
+
+#find-text {
+  float: right;
+  width: 30%;
+}
+
+#build-circle {
+    background: #c03c03;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-left: 2%;
+    float: left;
+    display: block;
+}
+
+#build-circle p {
+	color: white;
+	text-align: center;
+	padding-top: 20%;
+	font-size: 1.8em;
+}
+
+#build-text {
+  float: right;
+  width: 30%;
+}
+
+#write-circle {
+    background: #B3C9ED;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-left: -20px;
+    float: left;
+    display: block;
+}
+
+#write-circle p {
+	color: white;
+	text-align: center;
+	padding-top: 20%;
+	font-size: 1.8em;
+}
+
+#write-text {
+  float: right;
+  width: 30%;
+}
+
+.circle-header {
+  font-size: 2.4em;
+  margin-left: -20px;
+  @media all and (max-width: 1440px) {
+    margin-left: 0px;
+    font-size: 2em;
+  }
+}
+
+.circle-header2 {
+  font-size: 1em;
+  margin-left: -20px;
+  width: 120px;
+  @media all and (max-width: 1440px) {
+    margin-left: 0px;
+    width: 90px;
+  }
+}
+
+.build-header {
+  font-size: 2.4em;
+  margin-left: -40px;
+  @media all and (max-width: 1440px) {
+    margin-left: -20px;
+    font-size: 2em;
+  }
+}
+
+.build-header2 {
+  font-size: 1em;
+  margin-left: -40px;
+  @media all and (max-width: 1440px) {
+    margin-left: -20px;
+    width: 90px;
+  }
+}
+
+.write-header {
+  font-size: 2.4em;
+  margin-left: -65px;
+  @media all and (max-width: 1440px) {
+    margin-left: -50px;
+    font-size: 2em;
+  }
+}
+
+.write-header2 {
+  font-size: 1em;
+  margin-left: -65px;
+  width: 120px;
+  @media all and (max-width: 1440px) {
+    margin-left: -50px;
+    width: 90px;
+  }
+}
+
+#join-gs-now {
+	text-align: center;
+	padding-top: 1%;
+	font-size: 1.4em;
+}
+
+#find-build-write-links a {
+  color: black;
+}
+
+#slideshow {
+  margin-left: 30px;
+  margin-bottom: 0px;
+  background-color:rgba(0,0,0,0.5);
+  bottom:0;
+  height:100px;
+  left:0;
+  position:absolute;
+  width:100%;
+  z-index:10;
+  cursor: pointer;
+}
+
+#slideshow img {
+  cursor: pointer;
+}
+
+#slideshow li {
+	position: relative;
+	cursor: pointer;
+}
+
+#slideshow div.slider-bg {
+  background-image: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: rgb(0, 0, 0);
+  top: 300px;
+  width: 600px;
+  height: 102px;
+  left: 0;
+  position: absolute;
+  z-index: 10;
+  opacity: .5;
+  cursor: pointer;
+}
+
+#slideshow div.slider-info {
+  z-index: 15;
+  padding: 15px;
+  position: absolute;
+  left: 0;
+  height: 72px;
+  top: 300px;
+  cursor: pointer;
+}
+
+#slideshow div.slider-info strong {
+	font-size: 18px;
+	color: white;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+
+#slideshow div.slider-info p {
+  display: none;
+  font-size: 12px;
+  line-height: 14px;
+  color: #fff;
+  margin: 0 !important;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#slideshow li.slider-open div.slider-info {
+  width: 570px;
+}
+
+#slideshow li.slider-open div.slider-bg {
+  opacity: 1;
+}
+
+#slideshow li.slider-open div.slider-info strong {
+  font-size: 22px;
+}
+
+#slideshow li.slider-closed div.slider-info strong {
+  width: 150px;
+  display: block;
+}
+
+#slideshow li.slider-open div.slider-info p {
+  display: block;
 }
 
 #slideshow-header {
@@ -439,7 +705,7 @@ Logo
 
 // Alternative styling for 'Elevate'
 .box-image-sub-3 {
-	margin-left: 5%;
+	margin-left: -5%;
 	padding-top: 15px;
 	padding-bottom: 25px;
 }
@@ -516,7 +782,7 @@ Logo
 .date-sub-4 {
 	font-family: $base-font-family;
 	margin-left: 12%;
-	margin-top: 15%;
+	margin-top: 50%;
 }
 
 .nodetitle {
@@ -553,8 +819,14 @@ Logo
 	margin-right: 5%;
 	font-family: $base-font-family;
 	margin-top: 1%;
-	margin-bottom: 1%;
-	font-size: 2em;
+	margin-bottom: 2%;
+	font-size: 1.7em;
+}
+
+#find-cc,
+#build-cc,
+#write-cc {
+  cursor: pointer;
 }
 
 .nodetext3 {
@@ -600,6 +872,7 @@ Logo
 
 #sub-nav2-col {
 	padding-right: 0px;
+	text-align: center;
 }
 
 #nav-div2 {
@@ -651,7 +924,7 @@ Logo
 	margin-right: 6px;
 	display: inline-block;
 	margin-left: 6px;
-	font-size: 1em;
+	font-size: 0.9em;
 	@media screen and (max-width: 1440px) {
 		font-size: 0.9em;
 	}
@@ -670,7 +943,7 @@ Logo
 }
 
 #pubresources {
-	font-size: 1em;
+	font-size: 0.9em;
 	margin-left: 0px;
 	font-family: 'Open Sans', sans-serif;
 	@media screen and (max-width: 1440px) {
@@ -690,7 +963,7 @@ Logo
 }
 
 #partprograms {
-	font-size: 1em;
+	font-size: 0.9em;
 	margin-left: 0px;
 	font-family: 'Open Sans', sans-serif;
 	@media screen and (max-width: 1440px) {
@@ -707,7 +980,7 @@ $new-orange: lighten(#c03c03, 18);
 	padding-top: 6px;
 	padding-bottom: 6px;
 	display: inline-block;
-	font-size: 1.1em;
+	font-size: 1em;
 	@media screen and (max-width: 1440px) {
 		font-size: 0.8em;
 	}
