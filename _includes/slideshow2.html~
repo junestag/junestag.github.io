@@ -1,32 +1,15 @@
-<div class="slideshow-content" id="content2">
+<div class="slideshow-content" id="content1">
   <div class="slideshow">
 
     	<div class="row">
 
-		<div class="col-md-3">
-		<div id="slideshow-nav">
-		<span id="membership" class="slideshow-nav-element"><a href="index.html">Member Benefits</a></span><br />
-		<span class="slideshow-nav-element" id="summer-sale"><a href="summer-sale.html">Summer Sale</a></span><br />
-		<span class="slideshow-nav-element" id="spotlight"><a href="spotlight.html">Webinar Spotlight</a></span><br />
-		<span class="slideshow-nav-element" id="depot"><a href="depot.html">Partner Promo</a></span><br />
-		<span class="slideshow-nav-element" id="sog"><a href="sog.html">State of Grantseeking</a></span><br />
-		</div>
-		</div>
+<ul id="slideshow">
 
-		<div class="col-md-4" id="slideshow2-col">
-		<img src="/assets/summer-sale.jpg" id="slideshow2-img" title="Summer Sale" />
-		</div>
-
-		<div class="col-md-5">
-		<div id="slideshow-content">
-		<div id="slideshow-header">Summer Sizzling Sale</div>
-		<div id="slideshow-text">Now is the time to make hay while the sun shines by getting your share of grant awards! <br />
-		- $149 for one year Membership <br />
-		- $249 for two years. <br />
-		Includes free webinar: Building a Stellar Grantseeking Team</div>
-		<p id="learnmore"><a href="">Learn More</a></p>
-		</div>
-		</div>
+<li><a href="index.html"><img src="/assets/sog_spring2016.jpg" width="600" height="310" alt="" id="image1" /><div class="slider-bg"></div><div class="slider-info"><strong>The Spring 2016 State of Grantseeking</strong><p class="slider-text">As a leader in the nonprofit sector part of your job is to know about the latest trends and to apply lessons learned by others to the strategic development of your organization. This report will help you do just that.</p></div></a></li>
+<li><a href="index2.html"><img src="/assets/2.jpg" width="600" height="310" alt="" id="image2" /><div class="slider-bg"></div><div class="slider-info"><strong>Funding Alerts</strong><p class="slider-text">See our National, Regional, and Federal funding alerts for the week:Costs of Care: Getting the Patient-Provider Conversation Right, Civil Society Fund for Roma Integration 2020, and Program Helps Human Trafficking Victims.</p></div></a></li>
+<li><a href=""><img src="/assets/3.jpg" width="600" height="310" alt="" id="image3" /><div class="slider-bg"></div><div class="slider-info"><strong>Are you Looking for Grantwriting Support in 2016?</strong><p class="slider-text">Elevate works with effective and ambitious nonprofits of all sizes to make life easier for their leaders, improve their program outcomes, and build more sustainable organizations capable of doing the hard, day-to-day work of meaningful social change. </p></div></a></li>
+<li><a href=""><img src="/assets/4.jpg" width="600" height="310" alt="" id="image4" /><div class="slider-bg"></div><div class="slider-info"><strong>What Makes Wealthy Donors Tick?</strong><p class="slider-text">To fundraisers who work with major donors, these profiles of budding philanthropists will probably ring a bell.</p></div></a></li>
+		</ul>
 
 	</div>
 
