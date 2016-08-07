@@ -591,6 +591,7 @@ Logo
 #talk2020,
 #memberlogin,
 #free-newsletters,
+#intlfundalert,
 #partner-promotion-block {
 	background-color: white;
 	padding-bottom: 12px;
@@ -1176,6 +1177,15 @@ a {
 	margin-top: 6px;
 	display: inline-block;
 	margin-bottom: 6px;
+}
+
+#alert-header {
+  a {
+    color: #003863;
+  }
+  a:hover {
+    text-decoration: none;
+  }
 }
 
 #forgot-your-login {
