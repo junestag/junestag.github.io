@@ -44,8 +44,6 @@ $on-laptop:        80%;
     }
 }
 
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
@@ -54,17 +52,12 @@ $on-laptop:        80%;
 ;
 
 // Bootstrap styling
-    
-@import "bootstrap";
+    @import "bootstrap";
 
 // Custom SASS
 Logo
 #logo-div {
   float: left;
-}
-
-#logo-col {
-	//height: 150px;
 }
 
 #login {
@@ -965,7 +958,7 @@ Logo
 	font-size: 0.9em;
 	font-family: $base-font-family;
 	@media screen and (max-width: 1440px) {
-		font-size: 0.8em;
+		
 	}
 }
 
