@@ -625,6 +625,13 @@ Logo
 	margin-top: 12px;
 }
 
+#home3 #online-education2 {
+	background-color: #f7ebaa;
+	padding-bottom: 0px;
+	border: 1px solid #e1e1e1;
+	margin-top: 12px;
+}
+
 #online-ed-desc {
 	margin-top: 2%;
 	margin-left: 2%;
@@ -633,6 +640,10 @@ Logo
 
 #online-education {
 	background-color: #b3c9ec;
+}
+
+#home3 #online-education {
+	background-color: #f7ebaa;
 }
 
 .header {
@@ -893,6 +904,12 @@ Logo
 #build-cc,
 #write-cc {
   cursor: pointer;
+}
+
+.sample-profile-statement {
+  text-align: center;
+  margin-top: 12px;
+  font-style: italic;
 }
 
 .nodetext3 {
