@@ -307,7 +307,7 @@ Logo
 }
 
 #find-circle {
-    background: #003863;
+    background: #e46c0a;
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -329,7 +329,7 @@ Logo
 }
 
 #build-circle {
-    background: #c03c03;
+    background: #e46c0a;
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -351,7 +351,7 @@ Logo
 }
 
 #write-circle {
-    background: #B3C9ED;
+    background: #e46c0a;
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -383,7 +383,7 @@ Logo
 
 .circle-header2 {
   font-size: 1em;
-  margin-left: -20px;
+  margin-left: -19px;
   width: 120px;
   @media all and (max-width: 1440px) {
     margin-left: 0px;
@@ -402,7 +402,7 @@ Logo
 
 .build-header2 {
   font-size: 1em;
-  margin-left: -40px;
+  margin-left: -38px;
   @media all and (max-width: 1440px) {
     margin-left: -20px;
     width: 90px;
@@ -432,7 +432,7 @@ Logo
 
 .write-header2 {
   font-size: 1em;
-  margin-left: -65px;
+  margin-left: -63px;
   width: 120px;
   @media all and (max-width: 1440px) {
     margin-left: -50px;
@@ -885,7 +885,8 @@ Logo
 	font-family: $base-font-family;
 	margin-top: 1%;
 	margin-bottom: 2%;
-	font-size: 1.7em;
+	font-size: 1.3em;
+	text-align: center;
 }
 
 #find-cc,
@@ -960,6 +961,11 @@ Logo
 	@media screen and (max-width: 1440px) {
 		
 	}
+}
+
+.step-bold {
+  font-weight: bold;
+  display: block;
 }
 
 #nav-div-col {
@@ -1387,7 +1393,32 @@ a {
 }
 
 .fa {
-	color: white;
+  color: white;
+}
+
+@mixin position($top, $left) {
+  top: $top;
+  left: $left;
+}
+
+.fa-boxes {
+  color: #404040;
+  position: absolute;
+}
+
+.fa-search {
+  @extend .fa-boxes;
+  @include position(2%, 14%);
+}
+
+.fa-cogs {
+  @extend .fa-boxes;
+  @include position(2%, 5%);
+}
+
+.fa-pencil {
+  @extend .fa-boxes;
+  @include position(2%, -1%);
 }
 
 #facebook,
