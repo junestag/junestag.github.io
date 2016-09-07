@@ -3,38 +3,39 @@
 	<div class="headerwrapper">
 
 		<div class="row">
-			<div class="col-md-4" id="logo-col">
+			<div class="col-lg-4 col-xs-12" id="logo-col">
 				<div id="logo-div">
 				<a class="site-title" href="{{ site.baseurl }}/"><img src="/assets/GrantStation_slogan_trans.png" id="logo" title="GrantStation.com" /></a>
 				</div>
 			</div>
 
-			<div class="col-md-8">
+			<div class="col-lg-8 col-xs-12">
 				<div class="row">
 
-					<div class="col-md-12" id="top-nav-div">
+					<div class="col-lg-12" id="top-nav-div">
 <div class="row">
-<div class="col-md-12" id="nav-div-col">
+<div class="col-lg-12" id="nav-div-col">
 						<div id="nav-div">
+								<span class="top-top-nav-link" style="font-size:1.2em;"><a href="">Why Join?</a></span>
 								<span class="top-top-nav-link"><a href="">Home</a></span>
 								<span class="top-top-nav-link"><a href="">About</a></span>
-								<span class="top-top-nav-link"><a href="">Contact</a></span>
 								<span class="top-top-nav-link"><a href="">Help</a></span>
 								<span class="top-top-nav-link"><a href="">My Cart</a></span>
+								<span class="top-top-nav-link"><a href="">Login</a></span>
 						</div>
 </div>
 </div>
 <div class="row">
-<div class="col-md-12">
+<div class="col-lg-12">
 					<div id="tagline">
-			   		<span id="tagline-intro">"Helping our members connect with</span> <span id="tagline-ending"> the right grantmakers since 1999."</span>
+			   		<span id="tagline-intro">"Helping our Members connect with</span> <span id="tagline-ending"> the right grantmakers since 1999."</span>
 			  		</div>
 			  		</div>
 
 					</div>
  
 		      		<div class="row" id="sub-nav-row">
-<div class="col-md-12" id="sub-nav2-col">
+<div class="col-lg-12" id="sub-nav2-col">
 		       			<div id="nav-div2">
 					<div id="sub-nav-div2">
 					<span class="nav-div2-link" id="join"><a href="" title="Get a membership to GrantStation.com">JOIN</a></span>
