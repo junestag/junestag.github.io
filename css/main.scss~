@@ -44,8 +44,6 @@ $on-laptop:        80%;
     }
 }
 
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
@@ -54,17 +52,12 @@ $on-laptop:        80%;
 ;
 
 // Bootstrap styling
-    
-@import "bootstrap";
+    @import "bootstrap";
 
 // Custom SASS
 Logo
 #logo-div {
   float: left;
-}
-
-#logo-col {
-	//height: 150px;
 }
 
 #login {
@@ -151,6 +144,35 @@ Logo
 	}
 }
 
+.ed-listings #header-row-edlistings {
+	background-color: #b3c9ec;
+	height: 34px;
+	width: 100%;
+	font-size: 1.2em;
+	margin-left: 0px;
+}
+
+.header-row-edlistings-span1 {
+	display: block;
+	margin-left: 22%;
+	padding-top: 6px;
+	font-weight: bold;
+}
+
+.header-row-edlistings-span2 {
+	display: block;
+	margin-left: 24%;
+	padding-top: 6px;
+	font-weight: bold;
+}
+
+.header-row-edlistings-span3 {
+	display: block;
+	margin-left: 5%;
+	padding-top: 6px;
+	font-weight: bold;
+}
+
 #video-title {
 	padding-left: 10%;
 	padding-top: 2%;
@@ -192,6 +214,17 @@ Logo
 
 .top-top-nav-link {
 	margin-right: 24px;
+}
+
+#login-button a {
+	color: white;
+	font-size: 1.4em;
+}
+
+#login-button a:hover {
+	color: white;
+	text-decoration: none;
+	font-size: 1.4em;
 }
 
 #comm-resources2 {
@@ -314,7 +347,7 @@ Logo
 }
 
 #find-circle {
-    background: #003863;
+    background: #e46c0a;
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -336,7 +369,7 @@ Logo
 }
 
 #build-circle {
-    background: #c03c03;
+    background: #e46c0a;
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -358,7 +391,7 @@ Logo
 }
 
 #write-circle {
-    background: #B3C9ED;
+    background: #e46c0a;
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -390,7 +423,7 @@ Logo
 
 .circle-header2 {
   font-size: 1em;
-  margin-left: -20px;
+  margin-left: -19px;
   width: 120px;
   @media all and (max-width: 1440px) {
     margin-left: 0px;
@@ -409,7 +442,7 @@ Logo
 
 .build-header2 {
   font-size: 1em;
-  margin-left: -40px;
+  margin-left: -38px;
   @media all and (max-width: 1440px) {
     margin-left: -20px;
     width: 90px;
@@ -439,7 +472,7 @@ Logo
 
 .write-header2 {
   font-size: 1em;
-  margin-left: -65px;
+  margin-left: -63px;
   width: 120px;
   @media all and (max-width: 1440px) {
     margin-left: -50px;
@@ -591,6 +624,7 @@ Logo
 #talk2020,
 #memberlogin,
 #free-newsletters,
+#intlfundalert,
 #partner-promotion-block {
 	background-color: white;
 	padding-bottom: 12px;
@@ -631,6 +665,13 @@ Logo
 	margin-top: 12px;
 }
 
+#home3 #online-education2 {
+	background-color: #b3c9ec;
+	padding-bottom: 0px;
+	border: 1px solid #e1e1e1;
+	margin-top: 12px;
+}
+
 #online-ed-desc {
 	margin-top: 2%;
 	margin-left: 2%;
@@ -638,6 +679,10 @@ Logo
 }
 
 #online-education {
+	background-color: #b3c9ec;
+}
+
+#home3 #online-education {
 	background-color: #b3c9ec;
 }
 
@@ -651,6 +696,17 @@ Logo
 	background-color: #EBEBEB;
 	padding: 6px;
 	height: 38px;
+}
+
+.header-sub {
+	color: white;
+	font-size: 1em;
+	font-family: $content-font-family;
+	font-weight: 600;
+	border-bottom: 1px solid #e1e1e1;
+	background-color: #003863;
+	padding: 6px;
+	height: 32px;
 }
 
 // view all boxes
@@ -891,13 +947,20 @@ Logo
 	font-family: $base-font-family;
 	margin-top: 1%;
 	margin-bottom: 2%;
-	font-size: 1.7em;
+	font-size: 1.3em;
+	text-align: center;
 }
 
 #find-cc,
 #build-cc,
 #write-cc {
   cursor: pointer;
+}
+
+.sample-profile-statement {
+  text-align: center;
+  margin-top: 12px;
+  font-style: italic;
 }
 
 .nodetext3 {
@@ -964,8 +1027,13 @@ Logo
 	font-size: 0.9em;
 	font-family: $base-font-family;
 	@media screen and (max-width: 1440px) {
-		font-size: 0.8em;
+		
 	}
+}
+
+.step-bold {
+  font-weight: bold;
+  display: block;
 }
 
 #nav-div-col {
@@ -1167,7 +1235,7 @@ a {
   font-style: italic;
   color: black;
   text-transform: none;
-  margin-top: 1%;
+  margin-top: 0.5%;
 }
 
 #password {
@@ -1176,6 +1244,15 @@ a {
 	margin-top: 6px;
 	display: inline-block;
 	margin-bottom: 6px;
+}
+
+#alert-header {
+  a {
+    color: #003863;
+  }
+  a:hover {
+    text-decoration: none;
+  }
 }
 
 #forgot-your-login {
@@ -1384,7 +1461,32 @@ a {
 }
 
 .fa {
-	color: white;
+  color: white;
+}
+
+@mixin position($top, $left) {
+  top: $top;
+  left: $left;
+}
+
+.fa-boxes {
+  color: #404040;
+  position: absolute;
+}
+
+.fa-search {
+  @extend .fa-boxes;
+  @include position(2%, 14%);
+}
+
+.fa-cogs {
+  @extend .fa-boxes;
+  @include position(2%, 5%);
+}
+
+.fa-pencil {
+  @extend .fa-boxes;
+  @include position(2%, -1%);
 }
 
 #facebook,
@@ -1397,4 +1499,13 @@ a {
 	padding-top: 6px;
 	padding-bottom: 18px;	
 	font-family: $base-font-family;
+}
+
+#login-button {
+	padding: 12px;
+	background-color: #c03c03;
+	:hover {
+		background-color: red;
+		padding: 12px;
+	}
 }

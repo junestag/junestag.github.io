@@ -1,0 +1,22 @@
+				<div id="memberlogin">
+
+					<div class="header">
+					Member Login
+					</div>
+
+					<div class="form">
+						<form>
+						<div id="usernamediv">
+						<div class="col-sm-4" id="username-control-label"><span id="username">Username:</span></div>
+						<div class="col-sm-8" id="username-control"><input type="text" class="form-control"></div>
+						</div>
+						<div id="passworddiv">
+						<div class="col-sm-4" id="password-control-label"><span id="password">Password:</span></div>
+						<div class="col-sm-8" id="password-control"><input type="password" class="form-control"></div>
+						</div>
+						<p id="login"><a href="">Login</a></p>
+						<span id="forgot-your-login"><a href="">Forgot your Login or Password?</a></span>
+						</form>
+					</div>
+
+				</div>

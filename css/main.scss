@@ -144,6 +144,35 @@ Logo
 	}
 }
 
+.ed-listings #header-row-edlistings {
+	background-color: #b3c9ec;
+	height: 34px;
+	width: 100%;
+	font-size: 1.2em;
+	margin-left: 0px;
+}
+
+.header-row-edlistings-span1 {
+	display: block;
+	margin-left: 22%;
+	padding-top: 6px;
+	font-weight: bold;
+}
+
+.header-row-edlistings-span2 {
+	display: block;
+	margin-left: 24%;
+	padding-top: 6px;
+	font-weight: bold;
+}
+
+.header-row-edlistings-span3 {
+	display: block;
+	margin-left: 5%;
+	padding-top: 6px;
+	font-weight: bold;
+}
+
 #video-title {
 	padding-left: 10%;
 	padding-top: 2%;
@@ -185,6 +214,17 @@ Logo
 
 .top-top-nav-link {
 	margin-right: 24px;
+}
+
+#login-button a {
+	color: white;
+	font-size: 1.4em;
+}
+
+#login-button a:hover {
+	color: white;
+	text-decoration: none;
+	font-size: 1.4em;
 }
 
 #comm-resources2 {
@@ -656,6 +696,17 @@ Logo
 	background-color: #EBEBEB;
 	padding: 6px;
 	height: 38px;
+}
+
+.header-sub {
+	color: white;
+	font-size: 1em;
+	font-family: $content-font-family;
+	font-weight: 600;
+	border-bottom: 1px solid #e1e1e1;
+	background-color: #003863;
+	padding: 6px;
+	height: 32px;
 }
 
 // view all boxes
@@ -1448,4 +1499,9 @@ a {
 	padding-top: 6px;
 	padding-bottom: 18px;	
 	font-family: $base-font-family;
+}
+
+#login-button {
+	padding: 12px;
+	background-color: #c03c03;
 }

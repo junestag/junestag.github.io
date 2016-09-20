@@ -1,92 +1,57 @@
 ---
-layout: homealt3
+layout: homealt4
 ---
 
-<div class="home" id="home1">
+<div class="home" id="home3">
 
 	<div class="container-fluid">
 
 		<div class="row">
 		
-			<div class="col-sm-8">
+			<div class="col-lg-8 col-xs-12">
 	  
 				<div id="natfundalert">
 
 					<div class="header">
 					<div id="alert-header" style="float:left;">
-					National Funding Alert
-					</div>
-					<div class="right-arrow">
-					<span class="view-all-whatever"><a href="">View All Alerts <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a></span>
+					Why you should join GrantStation
 					</div>
 					</div>
 
 					<div class="row" id="nat-funding-alert">
 						<div class="box-text">
-							<div class="col-sm-4">
-							<div class="date-sub">June 16, 2016</div>
+
+					<div class="nodetext2">Get the tools and info you need to secure your funding this year and beyond!</div>
+						<div class="row" id="find-build-write-links">
+							<a href=""><div class="col-md-4 col-sm-4" id="find-cc">
+								<div id="find-circle">
+<i class="fa fa-search" style="font-size: 2.4em;" aria-hidden="true"></i>
+									<p>Step<br />ONE</p>
+								</div>
+								<div id="find-text"><span class="circle-header">Find</span><br /><p class="circle-header2"><span class="step-bold">timely grant opportunities</span> in our searchable listings.</p></div>
+							</div></a>
+							<a href=""><div class="col-md-4 col-sm-4" id="build-cc">
+								<div id="build-circle">
+<i class="fa fa-cogs" aria-hidden="true" style="font-size: 2.4em;"></i>
+									<p>Step<br />TWO</p>
+								</div>
+								<div id="build-text"><span class="build-header">Build</span><br /><p class="build-header2"><span class="step-bold">a strong grant strategy</span> with our planning tools.</p></div>
+							</div></a>
+							<a href=""><div class="col-md-4 col-sm-4" id="write-cc">
+								<div id="write-circle">
+<i class="fa fa-pencil" aria-hidden="true" style="font-size: 2.4em"></i>
+									<p>Step<br />THREE</p>
+								</div>
+								<div id="write-text"><span class="write-header">Write</span><br /><p class="write-header2"><span class="step-bold">winning grant proposals</span> using our tutorial and samples.</p></div>
+							</div></a>
+
 							</div>
-							<div class="col-sm-8">
-							<div class="box-image-sub" id="rwj-img">
-								<img src="assets/rwjflogo2.jpg" title="Robert Wood Johnson Foundation" />
-							</div>
-							</div>
-							<div class="nodetitle-sub"><a href="">Costs of Care: Getting the Patient-Provider Conversation Right</a></div>
-							<div class="nodetext">The Robert Wood Johnson Foundation is issuing two calls for proposals for the Costs of Care: Getting the Patient-Provider Conversation Right initiative to support cost-of-care conversations in clinical encounters across different vulnerable patient populations, care settings, and geographic areas. Click above to learn more about the funding guidelines and application process.</div>
+<a href=""><div id="join-gs-now">
+Join GrantStation today to power your projects!
+</div></a>
+
+<a href=""><div id="member-benefits">Learn more about our Member Benefits</div></a>
 						</div>		
-					</div>
-
-				</div>
-
-				<div id="regfundalert">
-
-					<div class="header">
-					<div id="alert-header" style="float:left;">
-					Regional Funding Alert
-					</div>
-<div class="right-arrow">
-					<span class="view-all-whatever"><a href="">View All Alerts <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a></span>
-					</div>
-					</div>
-
-					<div class="row">
-							<div class="col-sm-4">
-							<div class="date-sub">June 16, 2016</div>
-							</div>
-							<div class="col-sm-8">
-							<div class="box-image-sub" id="osf-img">
-								<img src="assets/osf_logo_rgb.jpg.jpeg" title="Open Society Foundations" />
-							</div>
-</div>
-								<div class="nodetitle-sub"><a href="">Civil Society Fund for Roma Integration 2020</a></div>
-								<div class="nodetext">The Open Society Foundations work to build vibrant and tolerant democracies whose governments are accountable and open to the participation of all people. The Civil Society Fund for Roma Integration 2020 provides support to civil society networks and coalitions in selected countries to contribute to the fulfillment of the commitments made by national governments within Roma Integration 2020. Click above to learn more about the funding guidelines.</div>
-					</div>
-
-				</div>
-
-				<div id="fedfundalert">
-
-					<div class="header">
-					<div id="alert-header" style="float:left;">
-					Federal Funding Alert
-					</div>
-<div class="right-arrow">
-					<span class="view-all-whatever"><a href="">View All Alerts <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a></span>
-					</div>
-					</div>
-
-					<div class="row">
-							<div class="col-sm-4">
-							<div class="date-sub-2">June 16, 2016</div>
-							</div>
-							<div class="col-sm-8">
-							<div class="box-image-sub" id="afcf-img">
-								<img src="assets/children-families.png" title="Open Society Foundations" />
-							</div>
-</div>
-								<div class="nodetitle-sub"><a href="">Program Helps Human Trafficking Victims</a></div>
-
-								<div class="nodetext">The Domestic Victims of Human Trafficking Program supports projects that will develop, expand, and strengthen comprehensive services for victims. Letters of intent are due July 22, 2016. The application deadline is August 24, 2016.</div>
 					</div>
 
 				</div>
@@ -97,21 +62,19 @@ layout: homealt3
 					<div id="alert-header" style="float:left;">
 					Webinar Spotlight
 					</div>
-<div class="right-arrow">
+<div id="right-arrow1">
 					<span class="view-all-whatever"><a href="">View All Webinars <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a></span>
 					</div>
 					</div>
 
 					<div class="row">
-							<div class="col-sm-4">
-							<div class="date-sub-3">June 16, 2016</div>
-							</div>
-							<div class="col-sm-8">
+							<div class="col-sm-12">
 							<div class="box-image-sub-2">
 								<img src="assets/webinar_image.png" title="Data" />
 							</div>	
 </div>
-								<div class="nodetitle-sub"><a href="">The Invisible Yellow Line: Nonprofit Governance</a></div>								
+								<div class="nodetitle-sub"><a href="">The Invisible Yellow Line: Nonprofit Governance</a></div>
+<div class="webinar-date3"><em>Webinar date: June 16, 2016</em></div>								
 <div class="nodetext">Who 'owns' your nonprofit? The line defining the governance responsibility of board and staff is often hard to see. This fast-paced webinar will help to clarify that line using a football metaphor that everyone can understand. You've seen that yellow line that appears on the screen when you watch a football game. When you apply that line to the key roles of board and staff, it provides an easy way to discuss governance roles and helps to open lines of communication so both teams work compatibly toward the same goal - serving your organization's mission. Jean Block, the webinar presenter, is the author of "The Invisible Yellow Line™ – Clarifying Board and Staff Roles." She will share easy, practical examples of best practices in board and staff roles in governance, including the board's responsibilities to the Three Duties and how the CEO can support the board in its governance role. The webinar is a great basic review for the novice and a refresher for the experienced nonprofit volunteer or chief executive.</div>	
 					</div>
 
@@ -120,52 +83,167 @@ layout: homealt3
 				<div id="talk2020">
 
 					<div class="header">
-					<div id="alert-header" style="float:left;">
-					Partner Promotion
+					<div id="alert-header" style="float:left;width:42%;">
+					Talk 2020
 					</div>
-<div class="right-arrow">
-					<span class="view-all-whatever"><a href="">View All Partners <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a></span>
+
+<div id="content-date-top">July 16, 2016</div>
+
+<div id="right-arrow2">
+					<span class="view-all-whatever"><a href="">View All Episodes <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a></span>
 					</div>
 					</div>
 
 					<div class="row">
-							<div class="col-sm-4">
-							<div class="date-sub-4">June 16, 2016</div>
-							</div>
-							<div class="col-sm-8">
+							<div class="col-sm-12">
 							<div class="box-image-sub-3">
-								<img src="assets/elevate.jpg" title="Impact Investing" />
+								<img src="assets/Social-Impact-Investment_FlowChart.jpg" title="Impact Investing" />
 							</div>	
 </div>
-								<div class="nodetitle-sub"><a href="">Are you Looking for Grantwriting Support in 2016?</a></div>
-								<div class="nodetext">Elevate works with effective and ambitious nonprofits of all sizes to make life easier for their leaders, improve their program outcomes, and build more sustainable organizations capable of doing the hard, day-to-day work of meaningful social change. Our team of writers and nonprofit strategists has extensive experience with grant writing, prospect identification, and funder cultivation. In the past three years, we have worked with over 80 nonprofits on over 4,000 proposals. We have won nearly $30 million for local, national, and international organizations. </div>
+								<div class="nodetitle-sub"><a href="">Impact Investing</a></div>
+								<div class="nodetext">GrantStation's CEO Cynthia Adams speaks of trends and the related tools she is seeing in the world of philanthropy. This week we talk with our CEO, Cynthia Adams, about Impact Investing, a topic that will be covered at  Innovations 2016: A GrantStation Forum on Philanthropy.
+
+</div>
 					</div>
 
 				</div>
 
-			</div>
-
-			<div class="col-sm-4">
-
-				<div id="memberlogin">
+				<div id="natfundalert">
 
 					<div class="header">
-					Member Login
+					<div id="alert-header" style="float:left;width: 42%;">
+					<a name="nat-fund-alert" class="nat-fund-alert-link">National Funding Alert</a>
+					</div>
+<div id="content-date-top">July 16, 2016</div>
+
+					</div>
+
+					<div class="row" id="nat-funding-alert">
+						<div class="box-text">
+							<div class="col-sm-12">
+							<div class="box-image-sub" id="rwj-img">
+								<img src="assets/rwjflogo2.jpg" title="Robert Wood Johnson Foundation" />
+							</div>
+							</div>
+							<div class="nodetitle-sub"><a href="">Costs of Care: Getting the Patient-Provider Conversation Right</a></div>
+							<div class="nodetext">The Robert Wood Johnson Foundation is issuing two calls for proposals for the Costs of Care: Getting the Patient-Provider Conversation Right initiative to support cost-of-care conversations in clinical encounters across different vulnerable patient populations, care settings, and geographic areas. Click above to learn more about the funding guidelines and application process.</div>
+						</div>		
+					</div>
+
+					<div class="row sample-profile-statement"">
+						This <a href="">is a sample</a> of the thousands of searchable grantmaker profiles <a href="">available to Members</a>!
+					</div>
+
+				</div>
+
+				<div id="regfundalert">
+
+					<div class="header">
+					<div id="alert-header" style="float:left;width:42%;">
+					Regional Funding Alert
+					</div>
+<div id="content-date-top">July 16, 2016</div>
+
+					</div>
+
+					<div class="row">
+							<div class="col-sm-12">
+							<div class="box-image-sub" id="osf-img">
+								<img src="assets/osf_logo_rgb.jpg.jpeg" title="Open Society Foundations" />
+							</div>
+</div>
+								<div class="nodetitle-sub"><a href="">Civil Society Fund for Roma Integration 2020</a></div>
+								<div class="nodetext">The Open Society Foundations work to build vibrant and tolerant democracies whose governments are accountable and open to the participation of all people. The Civil Society Fund for Roma Integration 2020 provides support to civil society networks and coalitions in selected countries to contribute to the fulfillment of the commitments made by national governments within Roma Integration 2020. Click above to learn more about the funding guidelines.</div>
+					</div>
+
+					<div class="row sample-profile-statement"">
+						This <a href="">is a sample</a> of the thousands of searchable grantmaker profiles <a href="">available to Members</a>!
+					</div>
+
+				</div>
+
+				<div id="fedfundalert">
+
+					<div class="header">
+					<div id="alert-header" style="float:left;width:42%;">
+					Federal Funding Alert
+					</div>
+<div id="content-date-top">July 16, 2016</div>
+
+					</div>
+
+					<div class="row">
+							<div class="col-sm-12">
+							<div class="box-image-sub" id="afcf-img">
+								<img src="assets/children-families.png" title="Open Society Foundations" />
+							</div>
+</div>
+								<div class="nodetitle-sub"><a href="">Program Helps Human Trafficking Victims</a></div>
+
+								<div class="nodetext">The Domestic Victims of Human Trafficking Program supports projects that will develop, expand, and strengthen comprehensive services for victims. Letters of intent are due July 22, 2016. The application deadline is August 24, 2016.</div>
+					</div>
+
+					<div class="row sample-profile-statement"">
+						This <a href="">is a sample</a> of the thousands of searchable grantmaker profiles <a href="">available to Members</a>!
+					</div>
+
+				</div>
+
+				<div id="intlfundalert">
+
+					<div class="header">
+					<div id="alert-header" style="float:left;width:42%;">
+					International Funding Alert
+					</div>
+<div id="content-date-top">July 16, 2016</div>
+<div id="right-arrow5">
+					<span class="view-all-whatever"><a href="">View All Alerts <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a></span>
+					</div>
+					</div>
+
+					<div class="row">
+							<div class="col-sm-12">
+							<div class="box-image-sub" id="afcf-img">
+								<img src="assets/logo-large.gif" title="European Outdoor Conservation Association" />
+							</div>
+</div>
+								<div class="nodetitle-sub"><a href="">Tree Planting and Regeneration Projects Supported</a></div>
+
+								<div class="nodetext">The European Outdoor Conservation Association seeks to support valuable conservation work and promote care and respect for wild places. The Association provides grants of up to €30,000 to implement a conservation project in any country around the world, except North America.</div>
+					</div>
+
+					<div class="row sample-profile-statement"">
+						This <a href="">is a sample</a> of the thousands of searchable grantmaker profiles <a href="">available to Members</a>!
+					</div>
+
+				</div>
+
+
+			</div>
+
+			<div class="col-lg-4 col-xs-12">
+
+				<div id="free-newsletters">
+
+					<div class="header">
+					Free Newsletters
 					</div>
 
 					<div class="form">
-						<form>
-						<div id="usernamediv">
-						<div class="col-sm-4" id="username-control-label"><span id="username">Username:</span></div>
-						<div class="col-sm-8" id="username-control"><input type="text" class="form-control"></div>
-						</div>
-						<div id="passworddiv">
-						<div class="col-sm-4" id="password-control-label"><span id="password">Password:</span></div>
-						<div class="col-sm-8" id="password-control"><input type="password" class="form-control"></div>
-						</div>
-						<p id="login"><a href="">Login</a></p>
-						<span id="forgot-your-login"><a href="">Forgot your Login or Password?</a></span>
-						</form>
+						
+						<img src="assets/cefc4c75-f902-4853-8512-ebb79b87403e.png" id="insider-logo" />
+						<div id="sign-up-announce">Sign up for our announcements of timely grant opportunities and more!</div>
+						<div id="news-checkbox"><label class="c-input c-checkbox"><input type="checkbox">
+						<span class="c-indicator"></span> GrantStation Insider (weekly)</label></div>
+						<div class="view-most-recent"><a href="">View the most recent issue</a></div>
+						<div id="news-checkbox"><label class="c-input c-checkbox"><input type="checkbox">
+						<span class="c-indicator"></span> International Insider (monthly)</label></div>
+						<div class="view-most-recent"><a href="">View the most recent issue</a></div>
+						<div class="col-sm-12">
+						<input type="text" value="your email address" onfocus="if (this.value=='your email address') this.value = ''" class="form-control" id="email-address"></div>
+						<p id="login" class="subscribe-button"><a href="">Subscribe</a></p><br />
+						
+						
 					</div>
 
 				</div>
@@ -174,13 +252,20 @@ layout: homealt3
 
 					<div class="header">
 					<div id="alert-header" style="float:left;">
-					Online Education - Live!
+					Online Education
 					</div>
 					
 
-<div class="right-arrow">
+<div id="right-arrow6">
 					<span class="view-all-whatever"><a href="">View All Events <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a></span>
 					</div>
+					</div>
+
+					<div class="header-sub">
+					<div id="alert-header-sub" style="float:left;">
+					Live Webinars
+					</div>
+					
 					</div>
 
 					<div class="ed-listings">
@@ -232,94 +317,104 @@ layout: homealt3
 								7/28/2016
 							</span>
 						</div>
-						<div id="woe-vll">
-						<p id="want-ode">Want on-demand education?</p>
-						<p id="check-vll"><a href="">Check out our video learning library</a></p>
-						</div>
 					</div>
 
-				</div>
-
-				<div id="free-newsletters">
-
-					<div class="header">
-					Free Newsletters
-					</div>
-
-					<div class="form">
-						
-						<img src="assets/cefc4c75-f902-4853-8512-ebb79b87403e.png" id="insider-logo" />
-						<div id="sign-up-announce">Sign up for our announcements of timely grant opportunities and more!</div>
-						<div id="news-checkbox"><label class="c-input c-checkbox"><input type="checkbox">
-						<span class="c-indicator"></span> GrantStation Insider (weekly)</label></div>
-						<div class="view-most-recent"><a href="">View the most recent issue</a></div>
-						<div id="news-checkbox"><label class="c-input c-checkbox"><input type="checkbox">
-						<span class="c-indicator"></span> International Insider (monthly)</label></div>
-						<div class="view-most-recent"><a href="">View the most recent issue</a></div>
-						<div class="col-sm-12">
-						<input type="text" value="your email address" onfocus="if (this.value=='your email address') this.value = ''" class="form-control" id="email-address"></div>
-						<p id="login" class="subscribe-button"><a href="">Subscribe</a></p><br />
-						
-						
-					</div>
-
-				</div>
-
-<div id="online-education">
-
-					<div class="header">
-					<div id="alert-header" style="float:left;">
+					<div class="header-sub">
+					<div id="alert-header-sub" style="float:left;">
 					Video Learning Library
 					</div>
 					
-
-<div class="right-arrow">
-					<span class="view-all-whatever"><a href="">View All Videos <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a></span>
-					</div>
 					</div>
 
 					<div class="ed-listings">
-							<div class="webinar">
-							<span class="ondemand-title">
+						<div class="row" id="header-row-edlistings">
+						<div class="col-lg-6 col-xs-6"><span class="header-row-edlistings-span1">Title</span></div>
+						<div class="col-lg-3 col-xs-3"><span class="header-row-edlistings-span2">Length</span></div>
+						<div class="col-lg-3 col-xs-3"><span class="header-row-edlistings-span3">Price</span></div>
+						</div>
+	
+						<div class="row">
+						<div class="col-lg-6 col-xs-6">
+							<span class="video-title">
 								<a href="">Funding Rural America</a>
 							</span>
-							<span class="ondemand-info">
-								3:23</span><span class="ondemand-info2">$67
+						</div>
+						<div class="col-lg-3 col-xs-3">
+							<span class="video-length">
+								3:23</span>
+						</div>
+						<div class="col-lg-3 col-xs-3">
+						<span class="video-price">$40
 							</span>
 						</div>
-						<div class="webinar">
-							<span class="ondemand-title">
+						</div>
+
+						<div class="row">
+						<div class="col-lg-6 col-xs-6">
+							<span class="video-title">
 								<a href="">Finding Grants for Small Communities</a>
 							</span>
-							<span class="ondemand-info">
-								5:37</span><span class="ondemand-info2">$95
+						</div>
+						<div class="col-lg-3 col-xs-3">
+							<span class="video-length">
+								5:37</span>
+						</div>
+						<div class="col-lg-3 col-xs-3">
+						<span class="video-price">$30
 							</span>
 						</div>
-						<div class="webinar">
-							<span class="ondemand-title">
+						</div>
+
+						<div class="row">
+						<div class="col-lg-6 col-xs-6">
+							<span class="video-title">
 								<a href="">Funding Libraries in America</a>
 							</span>
-							<span class="ondemand-info">
-								2:15</span><span class="ondemand-info2">$13
+						</div>
+						<div class="col-lg-3 col-xs-3">
+							<span class="video-length">
+								2:15</span>
+						</div>
+						<div class="col-lg-3 col-xs-3">
+						<span class="video-price">$35
 							</span>
 						</div>
-						<div class="webinar">
-							<span class="ondemand-title">
+						</div>
+
+						<div class="row">
+						<div class="col-lg-6 col-xs-6">
+							<span class="video-title">
 								<a href="">Building a 2016-17 Grant Strategy</a>
 							</span>
-							<span class="ondemand-info">
-								32:07</span><span class="ondemand-info2">$112
+						</div>
+						<div class="col-lg-3 col-xs-3">
+							<span class="video-length">
+								32:07</span>
+						</div>
+						<div class="col-lg-3 col-xs-3">
+						<span class="video-price">$50
 							</span>
 						</div>
-						<div class="webinar">
-							<span class="ondemand-title">
+						</div>
+
+						<div class="row">
+						<div class="col-lg-6 col-xs-6">
+							<span class="video-title">
 								<a href="">Getting Started: Basic Steps to Grant Writing</a>
 							</span>
-							<span class="ondemand-info">
-								26:05</span><span class="ondemand-info2">$100
+						</div>
+						<div class="col-lg-3 col-xs-3">
+							<span class="video-length">
+								26:05</span>
+						</div>
+						<div class="col-lg-3 col-xs-3">
+						<span class="video-price">$50
 							</span>
 						</div>
+						</div>
+
 				</div>
+
 
 				</div>
 
