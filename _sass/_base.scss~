@@ -1,3 +1,6 @@
+
+
+
 /**
  * Reset some basic elements
  */
@@ -23,7 +26,6 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
-    overflow-x: hidden;
 }
 
 
@@ -240,7 +242,7 @@ pre {
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
     @extend %clearfix;
-    background-color: $navy-blue;
+    //background-color: $navy-blue;
     color: white;
 
     @include media-query($on-laptop) {
