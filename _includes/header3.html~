@@ -22,7 +22,7 @@
 								<span class="top-top-nav-link"><a href="">Help</a></span>
 								<span class="top-top-nav-link"><a href="">My Cart</a></span>
 								<span class="top-top-nav-link"><a href="">Partner Programs</a></span>
-								<span class="top-top-nav-link2"><input type="text"></span>
+								<span class="top-top-nav-link2"><input type="text" placeholder="Search the Site"></span>
 						</div>
 </div>
 </div>

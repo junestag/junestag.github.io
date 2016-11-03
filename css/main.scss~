@@ -60,6 +60,10 @@ Logo
   float: left;
 }
 
+.site-header {
+	background-color: white;
+}
+
 #login {
 	font-family: $base-font-family;
 }
@@ -80,8 +84,7 @@ Logo
 
 #slideshow2-img {
 	display: inline-block;
-	height: 250px;
-	
+	height: 250px;	
 }
 
 #slideshow3-img {
@@ -270,7 +273,7 @@ Logo
 	background-color: white;
 	padding-top: 13px;
 	padding-bottom: 11px;
-	padding-right: 6px;
+	padding-right: 15px;
 	padding-left: 6px;
 	margin-left: -4px;
 	margin-top: -1px;
@@ -1011,6 +1014,7 @@ Logo
 
 #nav-div2 {
 	padding-top: 1%;
+	margin-right: -10px;
 	display: inline-block;
 	white-space: nowrap;
 	a {
@@ -1504,8 +1508,8 @@ a {
 #login-button {
 	padding: 12px;
 	background-color: #c03c03;
-	:hover {
-		background-color: red;
-		padding: 12px;
-	}
+}
+
+body {
+	background-color: #F7F7F7;
 }
